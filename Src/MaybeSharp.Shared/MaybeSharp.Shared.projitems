@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>942e5d8d-09be-4ab1-a98f-4a77088385cc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MaybeSharp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfoCommon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaybeDictionaryExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maybe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaybeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaybeStringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NullableExtensions.cs" />
+  </ItemGroup>
+</Project>

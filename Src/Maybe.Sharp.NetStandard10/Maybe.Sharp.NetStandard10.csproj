@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard1.0</TargetFramework>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<AssemblyName>Maybe.Sharp.NetStandard10</AssemblyName>
+		<RootNamespace>MaybeSharp</RootNamespace>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>bin\Debug\netstandard1.0\Maybe.Sharp.NetStandard10.xml</DocumentationFile>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<DefineConstants>TRACE;DEBUG;NETSTANDARD1_0;SUPPORTS_GETTYPEINFO</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<DocumentationFile>bin\Release\netstandard1.0\Maybe.Sharp.NetStandard10.xml</DocumentationFile>
+		<DefineConstants>TRACE;RELEASE;NETSTANDARD1_0;SUPPORTS_GETTYPEINFO</DefineConstants>
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<Import Project="..\MaybeSharp.Shared\MaybeSharp.Shared.projitems" Label="Shared" />
+
+</Project>
