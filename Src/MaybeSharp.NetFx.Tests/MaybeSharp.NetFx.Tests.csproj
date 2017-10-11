@@ -68,6 +68,12 @@
     <Compile Include="..\Maybe.Sharp.Tests\DictionaryExtensionTests.cs">
       <Link>DictionaryExtensionTests.cs</Link>
     </Compile>
+    <Compile Include="..\Maybe.Sharp.Tests\MaybeBindTests.cs">
+      <Link>MaybeBindTests.cs</Link>
+    </Compile>
+    <Compile Include="..\Maybe.Sharp.Tests\MaybeCastTests.cs">
+      <Link>MaybeCastTests.cs</Link>
+    </Compile>
     <Compile Include="..\Maybe.Sharp.Tests\MaybeCoalescingExtensionsTests.cs">
       <Link>MaybeCoalescingExtensionsTests.cs</Link>
     </Compile>
@@ -91,6 +97,9 @@
     </Compile>
     <Compile Include="..\Maybe.Sharp.Tests\MaybeWhenTests.cs">
       <Link>MaybeWhenTests.cs</Link>
+    </Compile>
+    <Compile Include="..\Maybe.Sharp.Tests\NullableTests.cs">
+      <Link>NullableTests.cs</Link>
     </Compile>
     <Compile Include="..\Maybe.Sharp.Tests\StringExtensionTests.cs">
       <Link>StringExtensionTests.cs</Link>

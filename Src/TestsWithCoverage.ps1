@@ -8,16 +8,17 @@
 
 # CONFIGURATION
 $TestProjectsGlobbing = @(,'*.Tests.csproj')
-$mstestPath = 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\MSTest.exe' 
+# $mstestPath = 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\MSTest.exe' 
+$mstestPath = 'C:\Users\troy.ONTEMPO\.nuget\packages\dotnet-xunit\2.3.0-beta1-build3642\tools\net452\xunit.console.x86.exe' 
 $dotnetPath = 'C:\Program Files\dotnet\dotnet.exe'
 $netcoreapp = 'netcoreapp1.1'
 
 $NamespaceInclusiveFilters = @(,'*') # asterix means inlude all namespaces (which pdb found)
-$BuildNamespaceExclusiveFilters = $true # For core - test project's default namespace; For classic - namespaces where test project's types defined
+$BuildNamespaceExclusiveFilters = $false # For core - test project's default namespace; For classic - namespaces where test project's types defined
 
 $testClassicProjects=$true
 $testCoreProjects   =$true
-$debugMode          =$false
+$debugMode          =$true
 
 $toolsFolder = 'packages'
 $classicProjectOutput = "bin\Debug"
@@ -129,7 +130,7 @@ If ($testClassicProjects){
             $filters = GetFilter -inclusive  $NamespaceInclusiveFilters -exclusive $namespaces
             $targetdir = Split-Path $testDll -parent
             $fileName  = Split-Path $testDll -leaf
-            $targetargs="/testcontainer:$testDll /nologo /usestderr /resultsfile:$mstestOutputFolderPath\$fileName.$trx.trx"
+            $targetargs="$testDll /nologo /usestderr /resultsfile:$mstestOutputFolderPath\$fileName.$trx.trx"
             $trx+=1;
             echo "opencover -mergeoutput -register:user -mergebyhash -skipautoprops -target:$mstestPath -targetargs:$targetargs -filter:$filters -output:$openCoverOutputFilePath"
             & $openCoverPath -mergeoutput -register:user -mergebyhash -skipautoprops "-target:$mstestPath" "-targetargs:$targetargs" "-filter:$filters" "-output:$openCoverOutputFilePath"  
@@ -144,10 +145,10 @@ If ($testClassicProjects){
              if ($BuildNamespaceExclusiveFilters){
                 $namespaces += GetNamespaces -dll $testDll
              }
-             $targetargs+= "/testcontainer:$testDll "
+             $targetargs+= "$testDll "
              $trx+=1;
         }
-        $targetargs+=" /resultsfile:$mstestOutputFolderPath\multiple.$trx.trx"
+        #$targetargs+=" /resultsfile:$mstestOutputFolderPath\multiple.$trx.trx"
         $namespaces = $namespaces | select-object -unique 
         $filters = GetFilter -inclusive  $NamespaceInclusiveFilters -exclusive $namespaces
         echo "opencover -register:user -target:$mstestPath -targetargs:$targetargs -filter:$filters -mergebyhash -skipautoprops -output:$openCoverOutputFilePath"
