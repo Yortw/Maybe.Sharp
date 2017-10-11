@@ -1,0 +1,2329 @@
+### YamlMime:ManagedReference
+items:
+- uid: MaybeSharp.Extensions.MaybeExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeExtensions
+  id: MaybeExtensions
+  parent: MaybeSharp.Extensions
+  children:
+  - MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  - MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  - MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  - MaybeSharp.Extensions.MaybeExtensions.Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  - MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  - MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  - MaybeSharp.Extensions.MaybeExtensions.SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  - MaybeSharp.Extensions.MaybeExtensions.SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  - MaybeSharp.Extensions.MaybeExtensions.ToNullable``1(MaybeSharp.Maybe{``0})
+  - MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  - MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  - MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  - MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  - MaybeSharp.Extensions.MaybeExtensions.WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  - MaybeSharp.Extensions.MaybeExtensions.WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  - MaybeSharp.Extensions.MaybeExtensions.Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  langs:
+  - csharp
+  - vb
+  name: MaybeExtensions
+  nameWithType: MaybeExtensions
+  fullName: MaybeSharp.Extensions.MaybeExtensions
+  type: Class
+  source:
+    id: MaybeExtensions
+    path: ''
+    startLine: 723
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nProvides extensions to the <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> type.\n"
+  example: []
+  syntax:
+    content: public static class MaybeExtensions
+    content.vb: Public Module MaybeExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  id: Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Or<T>(Maybe<T>, Maybe<T>)
+  nameWithType: MaybeExtensions.Or<T>(Maybe<T>, Maybe<T>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Or<T>(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  type: Method
+  source:
+    id: Or
+    path: ''
+    startLine: 738
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nCoalesces this value with another. If this value is empty, <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code> is returned, otherwise this is returned.\n"
+  remarks: "\n<p>Similar to the <xref href=\"MaybeSharp.Extensions.MaybeExtensions.Coalesce%60%601(MaybeSharp.Maybe%7b%60%600%7d%2cIEnumerable%7bMaybeSharp.Maybe%7b%60%600%7d%7d)\" data-throw-if-not-resolved=\"false\"></xref> method is lower allocation when using individual instances as no array or enumerale type needs to be created to pass the individual elements.</p>\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> Or<T>(this Maybe<T> source, Maybe<T> other)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: A Maybe{T} instance to coalesce.
+    - id: other
+      type: MaybeSharp.Maybe{{T}}
+      description: A second Maybe{T} instance to coalesce.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: Either <code data-dev-comment-type="paramref" class="paramref">source</code> if it is not empty, otherwise <code data-dev-comment-type="paramref" class="paramref">other</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Or(Of T)(source As Maybe(Of T), other As Maybe(Of T)) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Or*
+  nameWithType.vb: MaybeExtensions.Or(Of T)(Maybe(Of T), Maybe(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Or(Of T)(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  name.vb: Or(Of T)(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  id: Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Coalesce<T>(Maybe<T>, Maybe<T>[])
+  nameWithType: MaybeExtensions.Coalesce<T>(Maybe<T>, Maybe<T>[])
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce<T>(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>[])
+  type: Method
+  source:
+    id: Coalesce
+    path: ''
+    startLine: 753
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nCoalesces this value with one or more others. If <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is non-empty it is returned, otherwise the first non-empty value from <code data-dev-comment-type=\"paramref\" class=\"paramref\">values</code> is returned. If all values are empty, the last empty value is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> Coalesce<T>(this Maybe<T> source, params Maybe<T>[] values)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: A Maybe{T} instance to coalesce.
+    - id: values
+      type: MaybeSharp.Maybe{{T}}[]
+      description: An array of Maybe{T} values to coalesce.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: The first non-empty value (using <code data-dev-comment-type="paramref" class="paramref">source</code> then <code data-dev-comment-type="paramref" class="paramref">values</code>), otherwise the last value.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Coalesce(Of T)(source As Maybe(Of T), ParamArray values As Maybe(Of T)()) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Coalesce*
+  seealso:
+  - linkId: MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+    commentId: M:MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  nameWithType.vb: MaybeExtensions.Coalesce(Of T)(Maybe(Of T), Maybe(Of T)())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Coalesce(Of T)(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T)())
+  name.vb: Coalesce(Of T)(Maybe(Of T), Maybe(Of T)())
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  id: Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Coalesce<T>(Maybe<T>, IEnumerable<Maybe<T>>)
+  nameWithType: MaybeExtensions.Coalesce<T>(Maybe<T>, IEnumerable<Maybe<T>>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce<T>(MaybeSharp.Maybe<T>, IEnumerable<MaybeSharp.Maybe<T>>)
+  type: Method
+  source:
+    id: Coalesce
+    path: ''
+    startLine: 766
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nCoalesces this value with one or more others. If <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is non-empty it is returned, otherwise the first non-empty value from <code data-dev-comment-type=\"paramref\" class=\"paramref\">values</code> is returned. If all values are empty, the last empty value is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> Coalesce<T>(this Maybe<T> source, IEnumerable<Maybe<T>> values)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: A Maybe{T} instance to coalesce.
+    - id: values
+      type: IEnumerable{MaybeSharp.Maybe{{T}}}
+      description: An enumerable of Maybe{T} values to coalesce.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: The first non-empty value (using <code data-dev-comment-type="paramref" class="paramref">source</code> then <code data-dev-comment-type="paramref" class="paramref">values</code>), otherwise the last value.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Coalesce(Of T)(source As Maybe(Of T), values As IEnumerable(Of Maybe(Of T))) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Coalesce*
+  seealso:
+  - linkId: MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+    commentId: M:MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  nameWithType.vb: MaybeExtensions.Coalesce(Of T)(Maybe(Of T), IEnumerable(Of Maybe(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Coalesce(Of T)(MaybeSharp.Maybe(Of T), IEnumerable(Of MaybeSharp.Maybe(Of T)))
+  name.vb: Coalesce(Of T)(Maybe(Of T), IEnumerable(Of Maybe(Of T)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  id: ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ValueOr<T>(Maybe<T>, T)
+  nameWithType: MaybeExtensions.ValueOr<T>(Maybe<T>, T)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr<T>(MaybeSharp.Maybe<T>, T)
+  type: Method
+  source:
+    id: ValueOr
+    path: ''
+    startLine: 789
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nReturns the value of the Maybe{T} instance if it is non-empty, otherwise returns <code data-dev-comment-type=\"paramref\" class=\"paramref\">value</code>.\n"
+  example: []
+  syntax:
+    content: public static T ValueOr<T>(this Maybe<T> source, T value)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: The Mabye{T} instance whose value is returned if it is not empty.
+    - id: value
+      type: '{T}'
+      description: The value to return if the Maybe{T} is empty.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: '{T}'
+      description: Either the value of Maybe{T} or <code data-dev-comment-type="paramref" class="paramref">value</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ValueOr(Of T)(source As Maybe(Of T), value As T) As T
+  overload: MaybeSharp.Extensions.MaybeExtensions.ValueOr*
+  nameWithType.vb: MaybeExtensions.ValueOr(Of T)(Maybe(Of T), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOr(Of T)(MaybeSharp.Maybe(Of T), T)
+  name.vb: ValueOr(Of T)(Maybe(Of T), T)
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  id: ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ValueOr<T>(Maybe<T>, Func<T>)
+  nameWithType: MaybeExtensions.ValueOr<T>(Maybe<T>, Func<T>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr<T>(MaybeSharp.Maybe<T>, Func<T>)
+  type: Method
+  source:
+    id: ValueOr
+    path: ''
+    startLine: 803
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nReturns the value of the Maybe{T} instance if it is non-empty, otherwise returns the result of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">valueFactory</code> function.\n"
+  example: []
+  syntax:
+    content: public static T ValueOr<T>(this Maybe<T> source, Func<T> valueFactory)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: The Mabye{T} instance whose value is returned if it is not empty.
+    - id: valueFactory
+      type: Func{{T}}
+      description: A function the is used to calculate the return value if <code data-dev-comment-type="paramref" class="paramref">source</code> is empty.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: '{T}'
+      description: Either the value of <code data-dev-comment-type="paramref" class="paramref">source</code> or the result of calling <code data-dev-comment-type="paramref" class="paramref">valueFactory</code> if the former is empty.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ValueOr(Of T)(source As Maybe(Of T), valueFactory As Func(Of T)) As T
+  overload: MaybeSharp.Extensions.MaybeExtensions.ValueOr*
+  nameWithType.vb: MaybeExtensions.ValueOr(Of T)(Maybe(Of T), Func(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOr(Of T)(MaybeSharp.Maybe(Of T), Func(Of T))
+  name.vb: ValueOr(Of T)(Maybe(Of T), Func(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  id: ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ValueOrException<T>(Maybe<T>, Exception)
+  nameWithType: MaybeExtensions.ValueOrException<T>(Maybe<T>, Exception)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException<T>(MaybeSharp.Maybe<T>, Exception)
+  type: Method
+  source:
+    id: ValueOrException
+    path: ''
+    startLine: 821
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nReturns the value of <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> if it is not empty, otherwise throws the provided exception.\n"
+  example: []
+  syntax:
+    content: public static T ValueOrException<T>(this Maybe<T> source, Exception exception)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: The Mabye{T} instance whose value is returned if it is not empty.
+    - id: exception
+      type: Exception
+      description: The exception to throw if <code data-dev-comment-type="paramref" class="paramref">source</code> is empty. If null, an <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> is thrown.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: '{T}'
+      description: The value of <code data-dev-comment-type="paramref" class="paramref">source</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ValueOrException(Of T)(source As Maybe(Of T), exception As Exception) As T
+  overload: MaybeSharp.Extensions.MaybeExtensions.ValueOrException*
+  nameWithType.vb: MaybeExtensions.ValueOrException(Of T)(Maybe(Of T), Exception)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOrException(Of T)(MaybeSharp.Maybe(Of T), Exception)
+  name.vb: ValueOrException(Of T)(Maybe(Of T), Exception)
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  id: ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ValueOrException<T>(Maybe<T>, Func<Exception>)
+  nameWithType: MaybeExtensions.ValueOrException<T>(Maybe<T>, Func<Exception>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException<T>(MaybeSharp.Maybe<T>, Func<Exception>)
+  type: Method
+  source:
+    id: ValueOrException
+    path: ''
+    startLine: 835
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nReturns the value of <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> if it is not empty, otherwise throws an exception created from the function provided.\n"
+  example: []
+  syntax:
+    content: public static T ValueOrException<T>(this Maybe<T> source, Func<Exception> exceptionFactory)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: The Mabye{T} instance whose value is returned if it is not empty.
+    - id: exceptionFactory
+      type: Func{Exception}
+      description: A function that builds the exception to be thrown if <code data-dev-comment-type="paramref" class="paramref">source</code> is empty. If the function is null or returns null, a <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> is thrown.
+    typeParameters:
+    - id: T
+      description: The sub-type of the Maybe{T} instances.
+    return:
+      type: '{T}'
+      description: The value of <code data-dev-comment-type="paramref" class="paramref">source</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ValueOrException(Of T)(source As Maybe(Of T), exceptionFactory As Func(Of Exception)) As T
+  overload: MaybeSharp.Extensions.MaybeExtensions.ValueOrException*
+  nameWithType.vb: MaybeExtensions.ValueOrException(Of T)(Maybe(Of T), Func(Of Exception))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOrException(Of T)(MaybeSharp.Maybe(Of T), Func(Of Exception))
+  name.vb: ValueOrException(Of T)(Maybe(Of T), Func(Of Exception))
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  id: WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenSomething<T>(Maybe<T>, Action<T>)
+  nameWithType: MaybeExtensions.WhenSomething<T>(Maybe<T>, Action<T>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenSomething<T>(MaybeSharp.Maybe<T>, Action<T>)
+  type: Method
+  source:
+    id: WhenSomething
+    path: ''
+    startLine: 855
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nExecutes the <code data-dev-comment-type=\"paramref\" class=\"paramref\">action</code> is this instance is not nothing.\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> WhenSomething<T>(this Maybe<T> source, Action<T> action)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> to check for emptiness.
+    - id: action
+      type: Action{{T}}
+      description: The action to execute if <code data-dev-comment-type="paramref" class="paramref">source</code> is not nothing.
+    typeParameters:
+    - id: T
+      description: The type of value contained within the maybe.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: Returns <code data-dev-comment-type="paramref" class="paramref">source</code> allowing for chanining of method calls.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WhenSomething(Of T)(source As Maybe(Of T), action As Action(Of T)) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.WhenSomething*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown when <code data-dev-comment-type="paramref" class="paramref">action</code> is null.
+  nameWithType.vb: MaybeExtensions.WhenSomething(Of T)(Maybe(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.WhenSomething(Of T)(MaybeSharp.Maybe(Of T), Action(Of T))
+  name.vb: WhenSomething(Of T)(Maybe(Of T), Action(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  id: WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenNothing<T>(Maybe<T>, Action)
+  nameWithType: MaybeExtensions.WhenNothing<T>(Maybe<T>, Action)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenNothing<T>(MaybeSharp.Maybe<T>, Action)
+  type: Method
+  source:
+    id: WhenNothing
+    path: ''
+    startLine: 872
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nExectues the <code data-dev-comment-type=\"paramref\" class=\"paramref\">action</code> only if <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is empty.\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> WhenNothing<T>(this Maybe<T> source, Action action)
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> to check for emptiness.
+    - id: action
+      type: Action
+      description: The action to execute if <code data-dev-comment-type="paramref" class="paramref">source</code> is nothing.
+    typeParameters:
+    - id: T
+      description: The type of value contained within the maybe.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: Returns <code data-dev-comment-type="paramref" class="paramref">source</code> allowing for chanining of method calls.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WhenNothing(Of T)(source As Maybe(Of T), action As Action) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.WhenNothing*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown when <code data-dev-comment-type="paramref" class="paramref">action</code> is null.
+  nameWithType.vb: MaybeExtensions.WhenNothing(Of T)(Maybe(Of T), Action)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.WhenNothing(Of T)(MaybeSharp.Maybe(Of T), Action)
+  name.vb: WhenNothing(Of T)(Maybe(Of T), Action)
+- uid: MaybeSharp.Extensions.MaybeExtensions.Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  id: Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Where<T>(Maybe<T>, Func<T, Boolean>)
+  nameWithType: MaybeExtensions.Where<T>(Maybe<T>, Func<T, Boolean>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Where<T>(MaybeSharp.Maybe<T>, Func<T, System.Boolean>)
+  type: Method
+  source:
+    id: Where
+    path: ''
+    startLine: 893
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nExtension method allowing Maybe{T} instances to be used in LINQ where clauses.\n"
+  example: []
+  syntax:
+    content: public static Maybe<T> Where<T>(this Maybe<T> maybe, Func<T, bool> predicate)
+    parameters:
+    - id: maybe
+      type: MaybeSharp.Maybe{{T}}
+      description: A Maybe{T} instance to operate on.
+    - id: predicate
+      type: Func{{T},System.Boolean}
+      description: The predicate to apply to the Maybe{T} instance.
+    typeParameters:
+    - id: T
+      description: The type of value contained by the maybe.
+    return:
+      type: MaybeSharp.Maybe{{T}}
+      description: Either <code data-dev-comment-type="paramref" class="paramref">maybe</code> if it is empty or <code data-dev-comment-type="paramref" class="paramref">predicate</code> returns true, otherwise <xref href="MaybeSharp.Maybe%601.Nothing" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Where(Of T)(maybe As Maybe(Of T), predicate As Func(Of T, Boolean)) As Maybe(Of T)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Where*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">predicate</code> is null.
+  nameWithType.vb: MaybeExtensions.Where(Of T)(Maybe(Of T), Func(Of T, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Where(Of T)(MaybeSharp.Maybe(Of T), Func(Of T, System.Boolean))
+  name.vb: Where(Of T)(Maybe(Of T), Func(Of T, Boolean))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  id: Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Select<T, TResult>(Maybe<T>, Func<T, Maybe<TResult>>)
+  nameWithType: MaybeExtensions.Select<T, TResult>(Maybe<T>, Func<T, Maybe<TResult>>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(MaybeSharp.Maybe<T>, Func<T, MaybeSharp.Maybe<TResult>>)
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 918
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nConverts a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> to a Maybe{TResult} using the function provided.\n"
+  remarks: "\n<p>If <code data-dev-comment-type=\"paramref\" class=\"paramref\">maybe</code> is nothing then an empty instance of Maybe{TResult} is returned, otherwise the <code data-dev-comment-type=\"paramref\" class=\"paramref\">predicate</code> function is used to calculate the return value.</p>\n"
+  example: []
+  syntax:
+    content: public static Maybe<TResult> Select<T, TResult>(this Maybe<T> maybe, Func<T, Maybe<TResult>> predicate)
+    parameters:
+    - id: maybe
+      type: MaybeSharp.Maybe{{T}}
+      description: The maybe to convert.
+    - id: predicate
+      type: Func{{T},MaybeSharp.Maybe{{TResult}}}
+      description: A function that converts the value of <code data-dev-comment-type="paramref" class="paramref">maybe</code>.
+    typeParameters:
+    - id: T
+      description: The type of value contained in the <code data-dev-comment-type="paramref" class="paramref">maybe</code> instance.
+    - id: TResult
+      description: The type of value in the returned <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instance.
+    return:
+      type: MaybeSharp.Maybe{{TResult}}
+      description: A Maybe{T} instance that is either nothing, or the result of the <code data-dev-comment-type="paramref" class="paramref">predicate</code> function.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Select(Of T, TResult)(maybe As Maybe(Of T), predicate As Func(Of T, Maybe(Of TResult))) As Maybe(Of TResult)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Select*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">predicate</code> is null.
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TResult)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  name.vb: Select(Of T, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  id: Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Select<T, TResult>(Maybe<T>, Func<T, TResult>)
+  nameWithType: MaybeExtensions.Select<T, TResult>(Maybe<T>, Func<T, TResult>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(MaybeSharp.Maybe<T>, Func<T, TResult>)
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 934
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nConverts a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> to a Maybe{TResult} using the function provided.\n"
+  example: []
+  syntax:
+    content: public static Maybe<TResult> Select<T, TResult>(this Maybe<T> maybe, Func<T, TResult> predicate)
+    parameters:
+    - id: maybe
+      type: MaybeSharp.Maybe{{T}}
+      description: The maybe to convert.
+    - id: predicate
+      type: Func{{T},{TResult}}
+      description: A function that converts the value of <code data-dev-comment-type="paramref" class="paramref">maybe</code> to a value of TResult.
+    typeParameters:
+    - id: T
+      description: The type of value contained in the <code data-dev-comment-type="paramref" class="paramref">maybe</code> instance.
+    - id: TResult
+      description: The type of value in the returned <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instance.
+    return:
+      type: MaybeSharp.Maybe{{TResult}}
+      description: A Maybe{T} instance that is either nothing, or the result of the <code data-dev-comment-type="paramref" class="paramref">predicate</code> function.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Select(Of T, TResult)(maybe As Maybe(Of T), predicate As Func(Of T, TResult)) As Maybe(Of TResult)
+  overload: MaybeSharp.Extensions.MaybeExtensions.Select*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">predicate</code> is null.
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(Maybe(Of T), Func(Of T, TResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, TResult))
+  name.vb: Select(Of T, TResult)(Maybe(Of T), Func(Of T, TResult))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  id: Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Select<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  nameWithType: MaybeExtensions.Select<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(IEnumerable<MaybeSharp.Maybe<T>>, Func<T, MaybeSharp.Maybe<TResult>>)
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nConverts an <see cref=\"!:IEnumerable&lt;T>\"></see> of <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> values to a set of Maybe{TResult} values.\n"
+  remarks: "\n<p>If <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null then an empty set is returned.</p>\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Maybe<TResult>> Select<T, TResult>(this IEnumerable<Maybe<T>> source, Func<T, Maybe<TResult>> predicate)
+    parameters:
+    - id: source
+      type: IEnumerable{MaybeSharp.Maybe{{T}}}
+      description: The <see cref="!:IEnumerable&lt;T>"></see> to operate on.
+    - id: predicate
+      type: Func{{T},MaybeSharp.Maybe{{TResult}}}
+      description: A function that converts a {T} value to a Maybe{TResult}.
+    typeParameters:
+    - id: T
+      description: The type of value contained with the <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instances in the <code data-dev-comment-type="paramref" class="paramref">source</code> argument.
+    - id: TResult
+      description: The type of value contained in the <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instances returned.
+    return:
+      type: IEnumerable{MaybeSharp.Maybe{{TResult}}}
+      description: A set of Maybe{TResult} values.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Select(Of T, TResult)(source As IEnumerable(Of Maybe(Of T)), predicate As Func(Of T, Maybe(Of TResult))) As IEnumerable(Of Maybe(Of TResult))
+  overload: MaybeSharp.Extensions.MaybeExtensions.Select*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">predicate</code> is null.
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(IEnumerable(Of MaybeSharp.Maybe(Of T)), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  name.vb: Select(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  id: SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: SelectMany<T, TOther, TResult>(Maybe<T>, Func<T, Maybe<TOther>>, Func<T, TOther, TResult>)
+  nameWithType: MaybeExtensions.SelectMany<T, TOther, TResult>(Maybe<T>, Func<T, Maybe<TOther>>, Func<T, TOther, TResult>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectMany<T, TOther, TResult>(MaybeSharp.Maybe<T>, Func<T, MaybeSharp.Maybe<TOther>>, Func<T, TOther, TResult>)
+  type: Method
+  source:
+    id: SelectMany
+    path: ''
+    startLine: 972
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAllows values from multiple maybe instances to be combined in the select portion of a LINQ query.\n"
+  example: []
+  syntax:
+    content: public static Maybe<TResult> SelectMany<T, TOther, TResult>(this Maybe<T> maybe, Func<T, Maybe<TOther>> converter, Func<T, TOther, TResult> combiner)
+    parameters:
+    - id: maybe
+      type: MaybeSharp.Maybe{{T}}
+      description: A maybe instance to combine.
+    - id: converter
+      type: Func{{T},MaybeSharp.Maybe{{TOther}}}
+      description: A function that takes the value of <code data-dev-comment-type="paramref" class="paramref">maybe</code> (when non-empty) and returns a Maybe{TOther} result.
+    - id: combiner
+      type: Func{{T},{TOther},{TResult}}
+      description: Function that combines values of T and TOther to return a TResult.
+    typeParameters:
+    - id: T
+      description: The type of the first maybe instance.
+    - id: TOther
+      description: The type of the second maybe instance.
+    - id: TResult
+      description: The type of the result of combining the two types.
+    return:
+      type: MaybeSharp.Maybe{{TResult}}
+      description: A Maybe{TResult} containing the result of the <code data-dev-comment-type="paramref" class="paramref">combiner</code> function. Will be Mabye{T}.Not
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SelectMany(Of T, TOther, TResult)(maybe As Maybe(Of T), converter As Func(Of T, Maybe(Of TOther)), combiner As Func(Of T, TOther, TResult)) As Maybe(Of TResult)
+  overload: MaybeSharp.Extensions.MaybeExtensions.SelectMany*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">converter</code> or <code data-dev-comment-type="paramref" class="paramref">combiner</code> is null.
+  nameWithType.vb: MaybeExtensions.SelectMany(Of T, TOther, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TOther)), Func(Of T, TOther, TResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.SelectMany(Of T, TOther, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, MaybeSharp.Maybe(Of TOther)), Func(Of T, TOther, TResult))
+  name.vb: SelectMany(Of T, TOther, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TOther)), Func(Of T, TOther, TResult))
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  id: SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: SelectNonempty<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  nameWithType: MaybeExtensions.SelectNonempty<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty<T, TResult>(IEnumerable<MaybeSharp.Maybe<T>>, Func<T, MaybeSharp.Maybe<TResult>>)
+  type: Method
+  source:
+    id: SelectNonempty
+    path: ''
+    startLine: 998
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nConverts an <see cref=\"!:IEnumerable&lt;T>\"></see> of <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> values to a set of Maybe{TResult} values, skipping any empty values.\n"
+  remarks: "\n<p>If <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null then an empty set is returned.</p>\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Maybe<TResult>> SelectNonempty<T, TResult>(this IEnumerable<Maybe<T>> source, Func<T, Maybe<TResult>> predicate)
+    parameters:
+    - id: source
+      type: IEnumerable{MaybeSharp.Maybe{{T}}}
+      description: The <see cref="!:IEnumerable&lt;T>"></see> to operate on.
+    - id: predicate
+      type: Func{{T},MaybeSharp.Maybe{{TResult}}}
+      description: A function that converts a {T} value to a Maybe{TResult}.
+    typeParameters:
+    - id: T
+      description: The type of value contained with the <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instances in the <code data-dev-comment-type="paramref" class="paramref">source</code> argument.
+    - id: TResult
+      description: The type of value contained in the <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> instances returned.
+    return:
+      type: IEnumerable{MaybeSharp.Maybe{{TResult}}}
+      description: A set of Maybe{TResult} values that excludes any empty values in the source.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SelectNonempty(Of T, TResult)(source As IEnumerable(Of Maybe(Of T)), predicate As Func(Of T, Maybe(Of TResult))) As IEnumerable(Of Maybe(Of TResult))
+  overload: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">predicate</code> is null.
+  nameWithType.vb: MaybeExtensions.SelectNonempty(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty(Of T, TResult)(IEnumerable(Of MaybeSharp.Maybe(Of T)), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  name.vb: SelectNonempty(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ToNullable``1(MaybeSharp.Maybe{``0})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ToNullable``1(MaybeSharp.Maybe{``0})
+  id: ToNullable``1(MaybeSharp.Maybe{``0})
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNullable<T>(Maybe<T>)
+  nameWithType: MaybeExtensions.ToNullable<T>(Maybe<T>)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ToNullable<T>(MaybeSharp.Maybe<T>)
+  type: Method
+  source:
+    id: ToNullable
+    path: ''
+    startLine: 1014
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nReturns a <see cref=\"!:Nullable&lt;T>\"></see> from a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> where null is used if the maybe instance is empty.\n"
+  example: []
+  syntax:
+    content: 'public static T? ToNullable<T>(this Maybe<T> source)where T : struct'
+    parameters:
+    - id: source
+      type: MaybeSharp.Maybe{{T}}
+      description: The maybe instance whose value should be returned as a nullable.
+    typeParameters:
+    - id: T
+      description: The subtype of maybe and nullable to return.
+    return:
+      type: System.Nullable{{T}}
+      description: A <see cref="!:Nullable&lt;T>"></see> which is null if the maybe provided is empty.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToNullable(Of T As Structure)(source As Maybe(Of T)) As T?
+  overload: MaybeSharp.Extensions.MaybeExtensions.ToNullable*
+  nameWithType.vb: MaybeExtensions.ToNullable(Of T)(Maybe(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ToNullable(Of T)(MaybeSharp.Maybe(Of T))
+  name.vb: ToNullable(Of T)(Maybe(Of T))
+references:
+- uid: MaybeSharp.Maybe`1
+  commentId: T:MaybeSharp.Maybe`1
+  parent: MaybeSharp
+  isExternal: false
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: MaybeSharp.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions
+  commentId: N:MaybeSharp.Extensions
+  isExternal: false
+  name: MaybeSharp.Extensions
+  nameWithType: MaybeSharp.Extensions
+  fullName: MaybeSharp.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp
+  commentId: N:MaybeSharp
+  isExternal: false
+  name: MaybeSharp
+  nameWithType: MaybeSharp
+  fullName: MaybeSharp
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+- uid: MaybeSharp.Extensions.MaybeExtensions.Or*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Or
+  isExternal: false
+  name: Or
+  nameWithType: MaybeExtensions.Or
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Or
+- uid: MaybeSharp.Maybe{{T}}
+  commentId: T:MaybeSharp.Maybe{``0}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: MaybeSharp.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Coalesce
+  isExternal: false
+  name: Coalesce
+  nameWithType: MaybeExtensions.Coalesce
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce
+- uid: MaybeSharp.Maybe{{T}}[]
+  name: Maybe<T>[]
+  nameWithType: Maybe<T>[]
+  fullName: MaybeSharp.Maybe<T>[]
+  nameWithType.vb: Maybe(Of T)()
+  fullName.vb: MaybeSharp.Maybe(Of T)()
+  name.vb: Maybe(Of T)()
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: IEnumerable{MaybeSharp.Maybe{{T}}}
+  commentId: '!:IEnumerable{MaybeSharp.Maybe{``0}}'
+  definition: IEnumerable`1
+  name: IEnumerable<Maybe<T>>
+  nameWithType: IEnumerable<Maybe<T>>
+  fullName: IEnumerable<MaybeSharp.Maybe<T>>
+  nameWithType.vb: IEnumerable(Of Maybe(Of T))
+  fullName.vb: IEnumerable(Of MaybeSharp.Maybe(Of T))
+  name.vb: IEnumerable(Of Maybe(Of T))
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ValueOr
+  isExternal: false
+  name: ValueOr
+  nameWithType: MaybeExtensions.ValueOr
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  isExternal: false
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Func{{T}}
+  commentId: '!:Func{``0}'
+  definition: Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ValueOrException
+  isExternal: false
+  name: ValueOrException
+  nameWithType: MaybeExtensions.ValueOrException
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException
+- uid: Exception
+  commentId: '!:Exception'
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Func{Exception}
+  commentId: '!:Func{Exception}'
+  definition: Func`1
+  name: Func<Exception>
+  nameWithType: Func<Exception>
+  fullName: Func<Exception>
+  nameWithType.vb: Func(Of Exception)
+  fullName.vb: Func(Of Exception)
+  name.vb: Func(Of Exception)
+  spec.csharp:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenSomething*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.WhenSomething
+  isExternal: false
+  name: WhenSomething
+  nameWithType: MaybeExtensions.WhenSomething
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenSomething
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+- uid: Action{{T}}
+  commentId: '!:Action{``0}'
+  definition: Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  commentId: '!:Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenNothing*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.WhenNothing
+  isExternal: false
+  name: WhenNothing
+  nameWithType: MaybeExtensions.WhenNothing
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenNothing
+- uid: Action
+  commentId: '!:Action'
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: MaybeSharp.Maybe`1.Nothing
+  commentId: F:MaybeSharp.Maybe`1.Nothing
+- uid: MaybeSharp.Extensions.MaybeExtensions.Where*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Where
+  isExternal: false
+  name: Where
+  nameWithType: MaybeExtensions.Where
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Where
+- uid: Func{{T},System.Boolean}
+  commentId: '!:Func{``0,System.Boolean}'
+  definition: Func`2
+  name: Func<T, Boolean>
+  nameWithType: Func<T, Boolean>
+  fullName: Func<T, System.Boolean>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: Func(Of T, System.Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Select
+  isExternal: false
+  name: Select
+  nameWithType: MaybeExtensions.Select
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select
+- uid: Func{{T},MaybeSharp.Maybe{{TResult}}}
+  commentId: '!:Func{`0,MaybeSharp.Maybe{``0}}'
+  definition: Func`2
+  name: Func<T, Maybe<TResult>>
+  nameWithType: Func<T, Maybe<TResult>>
+  fullName: Func<T, MaybeSharp.Maybe<TResult>>
+  nameWithType.vb: Func(Of T, Maybe(Of TResult))
+  fullName.vb: Func(Of T, MaybeSharp.Maybe(Of TResult))
+  name.vb: Func(Of T, Maybe(Of TResult))
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Maybe{{TResult}}
+  commentId: T:MaybeSharp.Maybe{``0}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<TResult>
+  nameWithType: Maybe<TResult>
+  fullName: MaybeSharp.Maybe<TResult>
+  nameWithType.vb: Maybe(Of TResult)
+  fullName.vb: MaybeSharp.Maybe(Of TResult)
+  name.vb: Maybe(Of TResult)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func{{T},{TResult}}
+  commentId: '!:Func{``0,``1}'
+  definition: Func`2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable{MaybeSharp.Maybe{{TResult}}}
+  commentId: '!:IEnumerable{MaybeSharp.Maybe{``1}}'
+  definition: IEnumerable`1
+  name: IEnumerable<Maybe<TResult>>
+  nameWithType: IEnumerable<Maybe<TResult>>
+  fullName: IEnumerable<MaybeSharp.Maybe<TResult>>
+  nameWithType.vb: IEnumerable(Of Maybe(Of TResult))
+  fullName.vb: IEnumerable(Of MaybeSharp.Maybe(Of TResult))
+  name.vb: IEnumerable(Of Maybe(Of TResult))
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectMany*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.SelectMany
+  isExternal: false
+  name: SelectMany
+  nameWithType: MaybeExtensions.SelectMany
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectMany
+- uid: Func{{T},MaybeSharp.Maybe{{TOther}}}
+  commentId: '!:Func{``0,MaybeSharp.Maybe{``1}}'
+  definition: Func`2
+  name: Func<T, Maybe<TOther>>
+  nameWithType: Func<T, Maybe<TOther>>
+  fullName: Func<T, MaybeSharp.Maybe<TOther>>
+  nameWithType.vb: Func(Of T, Maybe(Of TOther))
+  fullName.vb: Func(Of T, MaybeSharp.Maybe(Of TOther))
+  name.vb: Func(Of T, Maybe(Of TOther))
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOther
+    nameWithType: TOther
+    fullName: TOther
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOther
+    nameWithType: TOther
+    fullName: TOther
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func{{T},{TOther},{TResult}}
+  commentId: '!:Func{``0,``1,``2}'
+  definition: Func`3
+  name: Func<T, TOther, TResult>
+  nameWithType: Func<T, TOther, TResult>
+  fullName: Func<T, TOther, TResult>
+  nameWithType.vb: Func(Of T, TOther, TResult)
+  fullName.vb: Func(Of T, TOther, TResult)
+  name.vb: Func(Of T, TOther, TResult)
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOther
+    nameWithType: TOther
+    fullName: TOther
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOther
+    nameWithType: TOther
+    fullName: TOther
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`3
+  commentId: '!:Func`3'
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.SelectNonempty
+  isExternal: false
+  name: SelectNonempty
+  nameWithType: MaybeExtensions.SelectNonempty
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty
+- uid: MaybeSharp.Extensions.MaybeExtensions.ToNullable*
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ToNullable
+  isExternal: false
+  name: ToNullable
+  nameWithType: MaybeExtensions.ToNullable
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ToNullable
+- uid: System.Nullable{{T}}
+  commentId: T:System.Nullable{``0}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

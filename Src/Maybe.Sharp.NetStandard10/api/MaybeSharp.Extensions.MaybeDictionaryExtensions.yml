@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeDictionaryExtensions
+  id: MaybeDictionaryExtensions
+  parent: MaybeSharp.Extensions
+  children:
+  - MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue``2(IDictionary{``0,``1},``0)
+  langs:
+  - csharp
+  - vb
+  name: MaybeDictionaryExtensions
+  nameWithType: MaybeDictionaryExtensions
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  type: Class
+  source:
+    id: MaybeDictionaryExtensions
+    path: ''
+    startLine: 687
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nProvides extensions to <see cref=\"!:IDictionary&lt;TKey, TValue>\"></see> for working with <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static class MaybeDictionaryExtensions
+    content.vb: Public Module MaybeDictionaryExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue``2(IDictionary{``0,``1},``0)
+  commentId: M:MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue``2(IDictionary{``0,``1},``0)
+  id: TryGetValue``2(IDictionary{``0,``1},``0)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  nameWithType: MaybeDictionaryExtensions.TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  type: Method
+  source:
+    id: TryGetValue
+    path: ''
+    startLine: 699
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to retrieve a value with the sepcified key from the given collection and returns the result as a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref>. If the key is not found, an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<TValue> TryGetValue<TKey, TValue>(this IDictionary<TKey, TValue> source, TKey key)
+    parameters:
+    - id: source
+      type: IDictionary{{TKey},{TValue}}
+      description: The dictionary to retrieve a value from.
+    - id: key
+      type: '{TKey}'
+      description: The key of the value to retrieve.
+    typeParameters:
+    - id: TKey
+      description: The type of key stored in the dictionary.
+    - id: TValue
+      description: The type of value stored in the dictionary.
+    return:
+      type: MaybeSharp.Maybe{{TValue}}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing the retrieved value, or an empty <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> if the key was not found in the dictionary.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryGetValue(Of TKey, TValue)(source As IDictionary(Of TKey, TValue), key As TKey) As Maybe(Of TValue)
+  overload: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrhwon if <code data-dev-comment-type="paramref" class="paramref">source</code> is null.
+  nameWithType.vb: MaybeDictionaryExtensions.TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  name.vb: TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+references:
+- uid: MaybeSharp.Maybe`1
+  commentId: T:MaybeSharp.Maybe`1
+  parent: MaybeSharp
+  isExternal: false
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: MaybeSharp.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions
+  commentId: N:MaybeSharp.Extensions
+  isExternal: false
+  name: MaybeSharp.Extensions
+  nameWithType: MaybeSharp.Extensions
+  fullName: MaybeSharp.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp
+  commentId: N:MaybeSharp
+  isExternal: false
+  name: MaybeSharp
+  nameWithType: MaybeSharp
+  fullName: MaybeSharp
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue*
+  commentId: Overload:MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue
+  isExternal: false
+  name: TryGetValue
+  nameWithType: MaybeDictionaryExtensions.TryGetValue
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+- uid: IDictionary{{TKey},{TValue}}
+  commentId: '!:IDictionary{``0,``1}'
+  definition: IDictionary`2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: MaybeSharp.Maybe{{TValue}}
+  commentId: T:MaybeSharp.Maybe{``1}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<TValue>
+  nameWithType: Maybe<TValue>
+  fullName: MaybeSharp.Maybe<TValue>
+  nameWithType.vb: Maybe(Of TValue)
+  fullName.vb: MaybeSharp.Maybe(Of TValue)
+  name.vb: Maybe(Of TValue)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  commentId: '!:IDictionary`2'
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TKey
+  commentId: '!:TKey'
+  isExternal: false
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey

@@ -3,10 +3,15 @@ A generic 'option' type for .Net, explicitly representing a value that is either
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Maybe.Sharp/blob/master/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/Yortw/Maybe.Sharp/badge.svg?branch=master)](https://coveralls.io/github/Yortw/Maybe.Sharp?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/waxmch4c6sm96vaa?svg=true)](https://ci.appveyor.com/project/Yortw/maybe-sharp) [![NuGet Badge](https://buildstats.info/nuget/Maybe.Sharp)](https://www.nuget.org/packages/Maybe.Sharp/)
 
+```powershell
+    PM> Install-Package Maybe.Sharp
+```
+
 # Why ?
-Yes there are plenty of maybe/option types for .Net, but I could find one that met all my requirements, hence Maybe.Sharp exists.
+Yes there are plenty of maybe/option types for .Net, but I couldn't find one that met all my requirements, hence Maybe.Sharp exists.
 
 # Features
+See the [API Documentation](file:///C:/Projects/GitHub/Maybe.Sharp/docs/api/MaybeSharp.Maybe-1.html) for contents/help.
 
 * Struct/Value type 
     * Instances of Maybe<T>  cannot be null

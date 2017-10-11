@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+- uid: MaybeSharp
+  name: MaybeSharp
+  items:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe<T>
+    name.vb: Maybe(Of T)
+- uid: MaybeSharp.Extensions
+  name: MaybeSharp.Extensions
+  items:
+  - uid: MaybeSharp.Extensions.MaybeDictionaryExtensions
+    name: MaybeDictionaryExtensions
+  - uid: MaybeSharp.Extensions.MaybeExtensions
+    name: MaybeExtensions
+  - uid: MaybeSharp.Extensions.MaybeStringExtensions
+    name: MaybeStringExtensions
+  - uid: MaybeSharp.Extensions.NullableExtensions
+    name: NullableExtensions

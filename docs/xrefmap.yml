@@ -1,0 +1,824 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: MaybeSharp
+  name: MaybeSharp
+  href: api/MaybeSharp.html
+  commentId: N:MaybeSharp
+  fullName: MaybeSharp
+  nameWithType: MaybeSharp
+- uid: MaybeSharp.Extensions
+  name: MaybeSharp.Extensions
+  href: api/MaybeSharp.Extensions.html
+  commentId: N:MaybeSharp.Extensions
+  fullName: MaybeSharp.Extensions
+  nameWithType: MaybeSharp.Extensions
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  name: MaybeDictionaryExtensions
+  href: api/MaybeSharp.Extensions.MaybeDictionaryExtensions.html
+  commentId: T:MaybeSharp.Extensions.MaybeDictionaryExtensions
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  nameWithType: MaybeDictionaryExtensions
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue*
+  name: TryGetValue
+  href: api/MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue
+  nameWithType: MaybeDictionaryExtensions.TryGetValue
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue``2(IDictionary{``0,``1},``0)
+  name: TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  href: api/MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue.html#MaybeSharp_Extensions_MaybeDictionaryExtensions_TryGetValue__2_IDictionary___0___1____0_
+  commentId: M:MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue``2(IDictionary{``0,``1},``0)
+  name.vb: TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  fullName.vb: MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  nameWithType: MaybeDictionaryExtensions.TryGetValue<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: MaybeDictionaryExtensions.TryGetValue(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+- uid: MaybeSharp.Extensions.MaybeExtensions
+  name: MaybeExtensions
+  href: api/MaybeSharp.Extensions.MaybeExtensions.html
+  commentId: T:MaybeSharp.Extensions.MaybeExtensions
+  fullName: MaybeSharp.Extensions.MaybeExtensions
+  nameWithType: MaybeExtensions
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce*
+  name: Coalesce
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Coalesce.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Coalesce
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce
+  nameWithType: MaybeExtensions.Coalesce
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  name: Coalesce<T>(Maybe<T>, IEnumerable<Maybe<T>>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Coalesce.html#MaybeSharp_Extensions_MaybeExtensions_Coalesce__1_MaybeSharp_Maybe___0__IEnumerable_MaybeSharp_Maybe___0___
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},IEnumerable{MaybeSharp.Maybe{``0}})
+  name.vb: Coalesce(Of T)(Maybe(Of T), IEnumerable(Of Maybe(Of T)))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce<T>(MaybeSharp.Maybe<T>, IEnumerable<MaybeSharp.Maybe<T>>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Coalesce(Of T)(MaybeSharp.Maybe(Of T), IEnumerable(Of MaybeSharp.Maybe(Of T)))
+  nameWithType: MaybeExtensions.Coalesce<T>(Maybe<T>, IEnumerable<Maybe<T>>)
+  nameWithType.vb: MaybeExtensions.Coalesce(Of T)(Maybe(Of T), IEnumerable(Of Maybe(Of T)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  name: Coalesce<T>(Maybe<T>, Maybe<T>[])
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Coalesce.html#MaybeSharp_Extensions_MaybeExtensions_Coalesce__1_MaybeSharp_Maybe___0__MaybeSharp_Maybe___0____
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Coalesce``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0}[])
+  name.vb: Coalesce(Of T)(Maybe(Of T), Maybe(Of T)())
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Coalesce<T>(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>[])
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Coalesce(Of T)(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T)())
+  nameWithType: MaybeExtensions.Coalesce<T>(Maybe<T>, Maybe<T>[])
+  nameWithType.vb: MaybeExtensions.Coalesce(Of T)(Maybe(Of T), Maybe(Of T)())
+- uid: MaybeSharp.Extensions.MaybeExtensions.Or*
+  name: Or
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Or.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Or
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Or
+  nameWithType: MaybeExtensions.Or
+- uid: MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  name: Or<T>(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Or.html#MaybeSharp_Extensions_MaybeExtensions_Or__1_MaybeSharp_Maybe___0__MaybeSharp_Maybe___0__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Or``1(MaybeSharp.Maybe{``0},MaybeSharp.Maybe{``0})
+  name.vb: Or(Of T)(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Or<T>(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Or(Of T)(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: MaybeExtensions.Or<T>(Maybe<T>, Maybe<T>)
+  nameWithType.vb: MaybeExtensions.Or(Of T)(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select*
+  name: Select
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Select.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Select
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select
+  nameWithType: MaybeExtensions.Select
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  name: Select<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Select.html#MaybeSharp_Extensions_MaybeExtensions_Select__2_IEnumerable_MaybeSharp_Maybe___0___Func___0_MaybeSharp_Maybe___1___
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  name.vb: Select(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(IEnumerable<MaybeSharp.Maybe<T>>, Func<T, MaybeSharp.Maybe<TResult>>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(IEnumerable(Of MaybeSharp.Maybe(Of T)), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  nameWithType: MaybeExtensions.Select<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  name: Select<T, TResult>(Maybe<T>, Func<T, TResult>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Select.html#MaybeSharp_Extensions_MaybeExtensions_Select__2_MaybeSharp_Maybe___0__Func___0___1__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,``1})
+  name.vb: Select(Of T, TResult)(Maybe(Of T), Func(Of T, TResult))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(MaybeSharp.Maybe<T>, Func<T, TResult>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, TResult))
+  nameWithType: MaybeExtensions.Select<T, TResult>(Maybe<T>, Func<T, TResult>)
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(Maybe(Of T), Func(Of T, TResult))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  name: Select<T, TResult>(Maybe<T>, Func<T, Maybe<TResult>>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Select.html#MaybeSharp_Extensions_MaybeExtensions_Select__2_MaybeSharp_Maybe___0__Func___0_MaybeSharp_Maybe___1___
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Select``2(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}})
+  name.vb: Select(Of T, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TResult)))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Select<T, TResult>(MaybeSharp.Maybe<T>, Func<T, MaybeSharp.Maybe<TResult>>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Select(Of T, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  nameWithType: MaybeExtensions.Select<T, TResult>(Maybe<T>, Func<T, Maybe<TResult>>)
+  nameWithType.vb: MaybeExtensions.Select(Of T, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectMany*
+  name: SelectMany
+  href: api/MaybeSharp.Extensions.MaybeExtensions.SelectMany.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.SelectMany
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectMany
+  nameWithType: MaybeExtensions.SelectMany
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  name: SelectMany<T, TOther, TResult>(Maybe<T>, Func<T, Maybe<TOther>>, Func<T, TOther, TResult>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.SelectMany.html#MaybeSharp_Extensions_MaybeExtensions_SelectMany__3_MaybeSharp_Maybe___0__Func___0_MaybeSharp_Maybe___1___Func___0___1___2__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.SelectMany``3(MaybeSharp.Maybe{``0},Func{``0,MaybeSharp.Maybe{``1}},Func{``0,``1,``2})
+  name.vb: SelectMany(Of T, TOther, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TOther)), Func(Of T, TOther, TResult))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectMany<T, TOther, TResult>(MaybeSharp.Maybe<T>, Func<T, MaybeSharp.Maybe<TOther>>, Func<T, TOther, TResult>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.SelectMany(Of T, TOther, TResult)(MaybeSharp.Maybe(Of T), Func(Of T, MaybeSharp.Maybe(Of TOther)), Func(Of T, TOther, TResult))
+  nameWithType: MaybeExtensions.SelectMany<T, TOther, TResult>(Maybe<T>, Func<T, Maybe<TOther>>, Func<T, TOther, TResult>)
+  nameWithType.vb: MaybeExtensions.SelectMany(Of T, TOther, TResult)(Maybe(Of T), Func(Of T, Maybe(Of TOther)), Func(Of T, TOther, TResult))
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty*
+  name: SelectNonempty
+  href: api/MaybeSharp.Extensions.MaybeExtensions.SelectNonempty.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.SelectNonempty
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty
+  nameWithType: MaybeExtensions.SelectNonempty
+- uid: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  name: SelectNonempty<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.SelectNonempty.html#MaybeSharp_Extensions_MaybeExtensions_SelectNonempty__2_IEnumerable_MaybeSharp_Maybe___0___Func___0_MaybeSharp_Maybe___1___
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.SelectNonempty``2(IEnumerable{MaybeSharp.Maybe{``0}},Func{``0,MaybeSharp.Maybe{``1}})
+  name.vb: SelectNonempty(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty<T, TResult>(IEnumerable<MaybeSharp.Maybe<T>>, Func<T, MaybeSharp.Maybe<TResult>>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.SelectNonempty(Of T, TResult)(IEnumerable(Of MaybeSharp.Maybe(Of T)), Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  nameWithType: MaybeExtensions.SelectNonempty<T, TResult>(IEnumerable<Maybe<T>>, Func<T, Maybe<TResult>>)
+  nameWithType.vb: MaybeExtensions.SelectNonempty(Of T, TResult)(IEnumerable(Of Maybe(Of T)), Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ToNullable*
+  name: ToNullable
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ToNullable.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ToNullable
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ToNullable
+  nameWithType: MaybeExtensions.ToNullable
+- uid: MaybeSharp.Extensions.MaybeExtensions.ToNullable``1(MaybeSharp.Maybe{``0})
+  name: ToNullable<T>(Maybe<T>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ToNullable.html#MaybeSharp_Extensions_MaybeExtensions_ToNullable__1_MaybeSharp_Maybe___0__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ToNullable``1(MaybeSharp.Maybe{``0})
+  name.vb: ToNullable(Of T)(Maybe(Of T))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ToNullable<T>(MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ToNullable(Of T)(MaybeSharp.Maybe(Of T))
+  nameWithType: MaybeExtensions.ToNullable<T>(Maybe<T>)
+  nameWithType.vb: MaybeExtensions.ToNullable(Of T)(Maybe(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr*
+  name: ValueOr
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOr.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ValueOr
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr
+  nameWithType: MaybeExtensions.ValueOr
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  name: ValueOr<T>(Maybe<T>, T)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOr.html#MaybeSharp_Extensions_MaybeExtensions_ValueOr__1_MaybeSharp_Maybe___0____0_
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},``0)
+  name.vb: ValueOr(Of T)(Maybe(Of T), T)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr<T>(MaybeSharp.Maybe<T>, T)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOr(Of T)(MaybeSharp.Maybe(Of T), T)
+  nameWithType: MaybeExtensions.ValueOr<T>(Maybe<T>, T)
+  nameWithType.vb: MaybeExtensions.ValueOr(Of T)(Maybe(Of T), T)
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  name: ValueOr<T>(Maybe<T>, Func<T>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOr.html#MaybeSharp_Extensions_MaybeExtensions_ValueOr__1_MaybeSharp_Maybe___0__Func___0__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOr``1(MaybeSharp.Maybe{``0},Func{``0})
+  name.vb: ValueOr(Of T)(Maybe(Of T), Func(Of T))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOr<T>(MaybeSharp.Maybe<T>, Func<T>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOr(Of T)(MaybeSharp.Maybe(Of T), Func(Of T))
+  nameWithType: MaybeExtensions.ValueOr<T>(Maybe<T>, Func<T>)
+  nameWithType.vb: MaybeExtensions.ValueOr(Of T)(Maybe(Of T), Func(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException*
+  name: ValueOrException
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOrException.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.ValueOrException
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException
+  nameWithType: MaybeExtensions.ValueOrException
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  name: ValueOrException<T>(Maybe<T>, Exception)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOrException.html#MaybeSharp_Extensions_MaybeExtensions_ValueOrException__1_MaybeSharp_Maybe___0__Exception_
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Exception)
+  name.vb: ValueOrException(Of T)(Maybe(Of T), Exception)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException<T>(MaybeSharp.Maybe<T>, Exception)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOrException(Of T)(MaybeSharp.Maybe(Of T), Exception)
+  nameWithType: MaybeExtensions.ValueOrException<T>(Maybe<T>, Exception)
+  nameWithType.vb: MaybeExtensions.ValueOrException(Of T)(Maybe(Of T), Exception)
+- uid: MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  name: ValueOrException<T>(Maybe<T>, Func<Exception>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.ValueOrException.html#MaybeSharp_Extensions_MaybeExtensions_ValueOrException__1_MaybeSharp_Maybe___0__Func_Exception__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.ValueOrException``1(MaybeSharp.Maybe{``0},Func{Exception})
+  name.vb: ValueOrException(Of T)(Maybe(Of T), Func(Of Exception))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.ValueOrException<T>(MaybeSharp.Maybe<T>, Func<Exception>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.ValueOrException(Of T)(MaybeSharp.Maybe(Of T), Func(Of Exception))
+  nameWithType: MaybeExtensions.ValueOrException<T>(Maybe<T>, Func<Exception>)
+  nameWithType.vb: MaybeExtensions.ValueOrException(Of T)(Maybe(Of T), Func(Of Exception))
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenNothing*
+  name: WhenNothing
+  href: api/MaybeSharp.Extensions.MaybeExtensions.WhenNothing.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.WhenNothing
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenNothing
+  nameWithType: MaybeExtensions.WhenNothing
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  name: WhenNothing<T>(Maybe<T>, Action)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.WhenNothing.html#MaybeSharp_Extensions_MaybeExtensions_WhenNothing__1_MaybeSharp_Maybe___0__Action_
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.WhenNothing``1(MaybeSharp.Maybe{``0},Action)
+  name.vb: WhenNothing(Of T)(Maybe(Of T), Action)
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenNothing<T>(MaybeSharp.Maybe<T>, Action)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.WhenNothing(Of T)(MaybeSharp.Maybe(Of T), Action)
+  nameWithType: MaybeExtensions.WhenNothing<T>(Maybe<T>, Action)
+  nameWithType.vb: MaybeExtensions.WhenNothing(Of T)(Maybe(Of T), Action)
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenSomething*
+  name: WhenSomething
+  href: api/MaybeSharp.Extensions.MaybeExtensions.WhenSomething.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.WhenSomething
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenSomething
+  nameWithType: MaybeExtensions.WhenSomething
+- uid: MaybeSharp.Extensions.MaybeExtensions.WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  name: WhenSomething<T>(Maybe<T>, Action<T>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.WhenSomething.html#MaybeSharp_Extensions_MaybeExtensions_WhenSomething__1_MaybeSharp_Maybe___0__Action___0__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.WhenSomething``1(MaybeSharp.Maybe{``0},Action{``0})
+  name.vb: WhenSomething(Of T)(Maybe(Of T), Action(Of T))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.WhenSomething<T>(MaybeSharp.Maybe<T>, Action<T>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.WhenSomething(Of T)(MaybeSharp.Maybe(Of T), Action(Of T))
+  nameWithType: MaybeExtensions.WhenSomething<T>(Maybe<T>, Action<T>)
+  nameWithType.vb: MaybeExtensions.WhenSomething(Of T)(Maybe(Of T), Action(Of T))
+- uid: MaybeSharp.Extensions.MaybeExtensions.Where*
+  name: Where
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Where.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeExtensions.Where
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Where
+  nameWithType: MaybeExtensions.Where
+- uid: MaybeSharp.Extensions.MaybeExtensions.Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  name: Where<T>(Maybe<T>, Func<T, Boolean>)
+  href: api/MaybeSharp.Extensions.MaybeExtensions.Where.html#MaybeSharp_Extensions_MaybeExtensions_Where__1_MaybeSharp_Maybe___0__Func___0_System_Boolean__
+  commentId: M:MaybeSharp.Extensions.MaybeExtensions.Where``1(MaybeSharp.Maybe{``0},Func{``0,System.Boolean})
+  name.vb: Where(Of T)(Maybe(Of T), Func(Of T, Boolean))
+  fullName: MaybeSharp.Extensions.MaybeExtensions.Where<T>(MaybeSharp.Maybe<T>, Func<T, System.Boolean>)
+  fullName.vb: MaybeSharp.Extensions.MaybeExtensions.Where(Of T)(MaybeSharp.Maybe(Of T), Func(Of T, System.Boolean))
+  nameWithType: MaybeExtensions.Where<T>(Maybe<T>, Func<T, Boolean>)
+  nameWithType.vb: MaybeExtensions.Where(Of T)(Maybe(Of T), Func(Of T, Boolean))
+- uid: MaybeSharp.Extensions.MaybeStringExtensions
+  name: MaybeStringExtensions
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.html
+  commentId: T:MaybeSharp.Extensions.MaybeStringExtensions
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions
+  nameWithType: MaybeStringExtensions
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  name: TryParseBoolean(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseBoolean_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  nameWithType: MaybeStringExtensions.TryParseBoolean(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean*
+  name: TryParseBoolean
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean
+  nameWithType: MaybeStringExtensions.TryParseBoolean
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  name: TryParseByte(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseByte_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  nameWithType: MaybeStringExtensions.TryParseByte(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte*
+  name: TryParseByte
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte
+  nameWithType: MaybeStringExtensions.TryParseByte
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  name: TryParseChar(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseChar_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  nameWithType: MaybeStringExtensions.TryParseChar(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar*
+  name: TryParseChar
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar
+  nameWithType: MaybeStringExtensions.TryParseChar
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  name: TryParseDateTime(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseDateTime_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  nameWithType: MaybeStringExtensions.TryParseDateTime(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime*
+  name: TryParseDateTime
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime
+  nameWithType: MaybeStringExtensions.TryParseDateTime
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  name: TryParseDateTimeOffset(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseDateTimeOffset_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  nameWithType: MaybeStringExtensions.TryParseDateTimeOffset(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset*
+  name: TryParseDateTimeOffset
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset
+  nameWithType: MaybeStringExtensions.TryParseDateTimeOffset
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  name: TryParseDecimal(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseDecimal_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  nameWithType: MaybeStringExtensions.TryParseDecimal(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal*
+  name: TryParseDecimal
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal
+  nameWithType: MaybeStringExtensions.TryParseDecimal
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  name: TryParseDouble(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseDouble_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  nameWithType: MaybeStringExtensions.TryParseDouble(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble*
+  name: TryParseDouble
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble
+  nameWithType: MaybeStringExtensions.TryParseDouble
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  name: TryParseInt(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseInt_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  nameWithType: MaybeStringExtensions.TryParseInt(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt*
+  name: TryParseInt
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt
+  nameWithType: MaybeStringExtensions.TryParseInt
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  name: TryParseInt16(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseInt16_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  nameWithType: MaybeStringExtensions.TryParseInt16(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16*
+  name: TryParseInt16
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16
+  nameWithType: MaybeStringExtensions.TryParseInt16
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  name: TryParseInt64(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseInt64_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  nameWithType: MaybeStringExtensions.TryParseInt64(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64*
+  name: TryParseInt64
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64
+  nameWithType: MaybeStringExtensions.TryParseInt64
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  name: TryParseSingle(String)
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle.html#MaybeSharp_Extensions_MaybeStringExtensions_TryParseSingle_System_String_
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  nameWithType: MaybeStringExtensions.TryParseSingle(String)
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle*
+  name: TryParseSingle
+  href: api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle.html
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle
+  nameWithType: MaybeStringExtensions.TryParseSingle
+- uid: MaybeSharp.Extensions.NullableExtensions
+  name: NullableExtensions
+  href: api/MaybeSharp.Extensions.NullableExtensions.html
+  commentId: T:MaybeSharp.Extensions.NullableExtensions
+  fullName: MaybeSharp.Extensions.NullableExtensions
+  nameWithType: NullableExtensions
+- uid: MaybeSharp.Extensions.NullableExtensions.ToMaybe*
+  name: ToMaybe
+  href: api/MaybeSharp.Extensions.NullableExtensions.ToMaybe.html
+  commentId: Overload:MaybeSharp.Extensions.NullableExtensions.ToMaybe
+  fullName: MaybeSharp.Extensions.NullableExtensions.ToMaybe
+  nameWithType: NullableExtensions.ToMaybe
+- uid: MaybeSharp.Extensions.NullableExtensions.ToMaybe``1(System.Nullable{``0})
+  name: ToMaybe<T>(Nullable<T>)
+  href: api/MaybeSharp.Extensions.NullableExtensions.ToMaybe.html#MaybeSharp_Extensions_NullableExtensions_ToMaybe__1_System_Nullable___0__
+  commentId: M:MaybeSharp.Extensions.NullableExtensions.ToMaybe``1(System.Nullable{``0})
+  name.vb: ToMaybe(Of T)(Nullable(Of T))
+  fullName: MaybeSharp.Extensions.NullableExtensions.ToMaybe<T>(System.Nullable<T>)
+  fullName.vb: MaybeSharp.Extensions.NullableExtensions.ToMaybe(Of T)(System.Nullable(Of T))
+  nameWithType: NullableExtensions.ToMaybe<T>(Nullable<T>)
+  nameWithType.vb: NullableExtensions.ToMaybe(Of T)(Nullable(Of T))
+- uid: MaybeSharp.Maybe`1
+  name: Maybe<T>
+  href: api/MaybeSharp.Maybe-1.html
+  commentId: T:MaybeSharp.Maybe`1
+  name.vb: Maybe(Of T)
+  fullName: MaybeSharp.Maybe<T>
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  nameWithType: Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+- uid: MaybeSharp.Maybe`1.#ctor(`0)
+  name: Maybe(T)
+  href: api/MaybeSharp.Maybe-1.-ctor.html#MaybeSharp_Maybe_1__ctor__0_
+  commentId: M:MaybeSharp.Maybe`1.#ctor(`0)
+  fullName: MaybeSharp.Maybe<T>.Maybe(T)
+  fullName.vb: MaybeSharp.Maybe(Of T).Maybe(T)
+  nameWithType: Maybe<T>.Maybe(T)
+  nameWithType.vb: Maybe(Of T).Maybe(T)
+- uid: MaybeSharp.Maybe`1.#ctor*
+  name: Maybe
+  href: api/MaybeSharp.Maybe-1.-ctor.html
+  commentId: Overload:MaybeSharp.Maybe`1.#ctor
+  fullName: MaybeSharp.Maybe<T>.Maybe
+  fullName.vb: MaybeSharp.Maybe(Of T).Maybe
+  nameWithType: Maybe<T>.Maybe
+  nameWithType.vb: Maybe(Of T).Maybe
+- uid: MaybeSharp.Maybe`1.As*
+  name: As
+  href: api/MaybeSharp.Maybe-1.As.html
+  commentId: Overload:MaybeSharp.Maybe`1.As
+  fullName: MaybeSharp.Maybe<T>.As
+  fullName.vb: MaybeSharp.Maybe(Of T).As
+  nameWithType: Maybe<T>.As
+  nameWithType.vb: Maybe(Of T).As
+- uid: MaybeSharp.Maybe`1.As``1
+  name: As<TResult>()
+  href: api/MaybeSharp.Maybe-1.As.html#MaybeSharp_Maybe_1_As__1
+  commentId: M:MaybeSharp.Maybe`1.As``1
+  name.vb: As(Of TResult)()
+  fullName: MaybeSharp.Maybe<T>.As<TResult>()
+  fullName.vb: MaybeSharp.Maybe(Of T).As(Of TResult)()
+  nameWithType: Maybe<T>.As<TResult>()
+  nameWithType.vb: Maybe(Of T).As(Of TResult)()
+- uid: MaybeSharp.Maybe`1.Bind(Func{`0,MaybeSharp.Maybe{`0}})
+  name: Bind(Func<T, Maybe<T>>)
+  href: api/MaybeSharp.Maybe-1.Bind.html#MaybeSharp_Maybe_1_Bind_Func__0_MaybeSharp_Maybe__0___
+  commentId: M:MaybeSharp.Maybe`1.Bind(Func{`0,MaybeSharp.Maybe{`0}})
+  name.vb: Bind(Func(Of T, Maybe(Of T)))
+  fullName: MaybeSharp.Maybe<T>.Bind(Func<T, MaybeSharp.Maybe<T>>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Bind(Func(Of T, MaybeSharp.Maybe(Of T)))
+  nameWithType: Maybe<T>.Bind(Func<T, Maybe<T>>)
+  nameWithType.vb: Maybe(Of T).Bind(Func(Of T, Maybe(Of T)))
+- uid: MaybeSharp.Maybe`1.Bind*
+  name: Bind
+  href: api/MaybeSharp.Maybe-1.Bind.html
+  commentId: Overload:MaybeSharp.Maybe`1.Bind
+  fullName: MaybeSharp.Maybe<T>.Bind
+  fullName.vb: MaybeSharp.Maybe(Of T).Bind
+  nameWithType: Maybe<T>.Bind
+  nameWithType.vb: Maybe(Of T).Bind
+- uid: MaybeSharp.Maybe`1.Bind``1(Func{`0,MaybeSharp.Maybe{``0}})
+  name: Bind<TResult>(Func<T, Maybe<TResult>>)
+  href: api/MaybeSharp.Maybe-1.Bind.html#MaybeSharp_Maybe_1_Bind__1_Func__0_MaybeSharp_Maybe___0___
+  commentId: M:MaybeSharp.Maybe`1.Bind``1(Func{`0,MaybeSharp.Maybe{``0}})
+  name.vb: Bind(Of TResult)(Func(Of T, Maybe(Of TResult)))
+  fullName: MaybeSharp.Maybe<T>.Bind<TResult>(Func<T, MaybeSharp.Maybe<TResult>>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Bind(Of TResult)(Func(Of T, MaybeSharp.Maybe(Of TResult)))
+  nameWithType: Maybe<T>.Bind<TResult>(Func<T, Maybe<TResult>>)
+  nameWithType.vb: Maybe(Of T).Bind(Of TResult)(Func(Of T, Maybe(Of TResult)))
+- uid: MaybeSharp.Maybe`1.Cast*
+  name: Cast
+  href: api/MaybeSharp.Maybe-1.Cast.html
+  commentId: Overload:MaybeSharp.Maybe`1.Cast
+  fullName: MaybeSharp.Maybe<T>.Cast
+  fullName.vb: MaybeSharp.Maybe(Of T).Cast
+  nameWithType: Maybe<T>.Cast
+  nameWithType.vb: Maybe(Of T).Cast
+- uid: MaybeSharp.Maybe`1.Cast``1
+  name: Cast<TResult>()
+  href: api/MaybeSharp.Maybe-1.Cast.html#MaybeSharp_Maybe_1_Cast__1
+  commentId: M:MaybeSharp.Maybe`1.Cast``1
+  name.vb: Cast(Of TResult)()
+  fullName: MaybeSharp.Maybe<T>.Cast<TResult>()
+  fullName.vb: MaybeSharp.Maybe(Of T).Cast(Of TResult)()
+  nameWithType: Maybe<T>.Cast<TResult>()
+  nameWithType.vb: Maybe(Of T).Cast(Of TResult)()
+- uid: MaybeSharp.Maybe`1.CompareTo(`0)
+  name: CompareTo(T)
+  href: api/MaybeSharp.Maybe-1.CompareTo.html#MaybeSharp_Maybe_1_CompareTo__0_
+  commentId: M:MaybeSharp.Maybe`1.CompareTo(`0)
+  fullName: MaybeSharp.Maybe<T>.CompareTo(T)
+  fullName.vb: MaybeSharp.Maybe(Of T).CompareTo(T)
+  nameWithType: Maybe<T>.CompareTo(T)
+  nameWithType.vb: Maybe(Of T).CompareTo(T)
+- uid: MaybeSharp.Maybe`1.CompareTo(MaybeSharp.Maybe{`0})
+  name: CompareTo(Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.CompareTo.html#MaybeSharp_Maybe_1_CompareTo_MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.CompareTo(MaybeSharp.Maybe{`0})
+  name.vb: CompareTo(Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.CompareTo(MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).CompareTo(MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.CompareTo(Maybe<T>)
+  nameWithType.vb: Maybe(Of T).CompareTo(Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.CompareTo(System.Object)
+  name: CompareTo(Object)
+  href: api/MaybeSharp.Maybe-1.CompareTo.html#MaybeSharp_Maybe_1_CompareTo_System_Object_
+  commentId: M:MaybeSharp.Maybe`1.CompareTo(System.Object)
+  fullName: MaybeSharp.Maybe<T>.CompareTo(System.Object)
+  fullName.vb: MaybeSharp.Maybe(Of T).CompareTo(System.Object)
+  nameWithType: Maybe<T>.CompareTo(Object)
+  nameWithType.vb: Maybe(Of T).CompareTo(Object)
+- uid: MaybeSharp.Maybe`1.CompareTo*
+  name: CompareTo
+  href: api/MaybeSharp.Maybe-1.CompareTo.html
+  commentId: Overload:MaybeSharp.Maybe`1.CompareTo
+  fullName: MaybeSharp.Maybe<T>.CompareTo
+  fullName.vb: MaybeSharp.Maybe(Of T).CompareTo
+  nameWithType: Maybe<T>.CompareTo
+  nameWithType.vb: Maybe(Of T).CompareTo
+- uid: MaybeSharp.Maybe`1.Equals(MaybeSharp.Maybe{`0})
+  name: Equals(Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.Equals.html#MaybeSharp_Maybe_1_Equals_MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.Equals(MaybeSharp.Maybe{`0})
+  name.vb: Equals(Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.Equals(MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Equals(MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.Equals(Maybe<T>)
+  nameWithType.vb: Maybe(Of T).Equals(Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.Equals(System.Object)
+  name: Equals(Object)
+  href: api/MaybeSharp.Maybe-1.Equals.html#MaybeSharp_Maybe_1_Equals_System_Object_
+  commentId: M:MaybeSharp.Maybe`1.Equals(System.Object)
+  fullName: MaybeSharp.Maybe<T>.Equals(System.Object)
+  fullName.vb: MaybeSharp.Maybe(Of T).Equals(System.Object)
+  nameWithType: Maybe<T>.Equals(Object)
+  nameWithType.vb: Maybe(Of T).Equals(Object)
+- uid: MaybeSharp.Maybe`1.Equals*
+  name: Equals
+  href: api/MaybeSharp.Maybe-1.Equals.html
+  commentId: Overload:MaybeSharp.Maybe`1.Equals
+  fullName: MaybeSharp.Maybe<T>.Equals
+  fullName.vb: MaybeSharp.Maybe(Of T).Equals
+  nameWithType: Maybe<T>.Equals
+  nameWithType.vb: Maybe(Of T).Equals
+- uid: MaybeSharp.Maybe`1.GetHashCode
+  name: GetHashCode()
+  href: api/MaybeSharp.Maybe-1.GetHashCode.html#MaybeSharp_Maybe_1_GetHashCode
+  commentId: M:MaybeSharp.Maybe`1.GetHashCode
+  fullName: MaybeSharp.Maybe<T>.GetHashCode()
+  fullName.vb: MaybeSharp.Maybe(Of T).GetHashCode()
+  nameWithType: Maybe<T>.GetHashCode()
+  nameWithType.vb: Maybe(Of T).GetHashCode()
+- uid: MaybeSharp.Maybe`1.GetHashCode*
+  name: GetHashCode
+  href: api/MaybeSharp.Maybe-1.GetHashCode.html
+  commentId: Overload:MaybeSharp.Maybe`1.GetHashCode
+  fullName: MaybeSharp.Maybe<T>.GetHashCode
+  fullName.vb: MaybeSharp.Maybe(Of T).GetHashCode
+  nameWithType: Maybe<T>.GetHashCode
+  nameWithType.vb: Maybe(Of T).GetHashCode
+- uid: MaybeSharp.Maybe`1.HasValue
+  name: HasValue
+  href: api/MaybeSharp.Maybe-1.HasValue.html#MaybeSharp_Maybe_1_HasValue
+  commentId: P:MaybeSharp.Maybe`1.HasValue
+  fullName: MaybeSharp.Maybe<T>.HasValue
+  fullName.vb: MaybeSharp.Maybe(Of T).HasValue
+  nameWithType: Maybe<T>.HasValue
+  nameWithType.vb: Maybe(Of T).HasValue
+- uid: MaybeSharp.Maybe`1.HasValue*
+  name: HasValue
+  href: api/MaybeSharp.Maybe-1.HasValue.html
+  commentId: Overload:MaybeSharp.Maybe`1.HasValue
+  fullName: MaybeSharp.Maybe<T>.HasValue
+  fullName.vb: MaybeSharp.Maybe(Of T).HasValue
+  nameWithType: Maybe<T>.HasValue
+  nameWithType.vb: Maybe(Of T).HasValue
+- uid: MaybeSharp.Maybe`1.IsEmpty
+  name: IsEmpty
+  href: api/MaybeSharp.Maybe-1.IsEmpty.html#MaybeSharp_Maybe_1_IsEmpty
+  commentId: P:MaybeSharp.Maybe`1.IsEmpty
+  fullName: MaybeSharp.Maybe<T>.IsEmpty
+  fullName.vb: MaybeSharp.Maybe(Of T).IsEmpty
+  nameWithType: Maybe<T>.IsEmpty
+  nameWithType.vb: Maybe(Of T).IsEmpty
+- uid: MaybeSharp.Maybe`1.IsEmpty*
+  name: IsEmpty
+  href: api/MaybeSharp.Maybe-1.IsEmpty.html
+  commentId: Overload:MaybeSharp.Maybe`1.IsEmpty
+  fullName: MaybeSharp.Maybe<T>.IsEmpty
+  fullName.vb: MaybeSharp.Maybe(Of T).IsEmpty
+  nameWithType: Maybe<T>.IsEmpty
+  nameWithType.vb: Maybe(Of T).IsEmpty
+- uid: MaybeSharp.Maybe`1.Nothing
+  name: Nothing
+  href: api/MaybeSharp.Maybe-1.Nothing.html#MaybeSharp_Maybe_1_Nothing
+  commentId: F:MaybeSharp.Maybe`1.Nothing
+  fullName: MaybeSharp.Maybe<T>.Nothing
+  fullName.vb: MaybeSharp.Maybe(Of T).Nothing
+  nameWithType: Maybe<T>.Nothing
+  nameWithType.vb: Maybe(Of T).Nothing
+- uid: MaybeSharp.Maybe`1.op_Equality(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: Equality(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_Equality.html#MaybeSharp_Maybe_1_op_Equality_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_Equality(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: Equality(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.Equality(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Equality(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.Equality(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).Equality(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_Equality*
+  name: Equality
+  href: api/MaybeSharp.Maybe-1.op_Equality.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_Equality
+  fullName: MaybeSharp.Maybe<T>.Equality
+  fullName.vb: MaybeSharp.Maybe(Of T).Equality
+  nameWithType: Maybe<T>.Equality
+  nameWithType.vb: Maybe(Of T).Equality
+- uid: MaybeSharp.Maybe`1.op_Explicit(MaybeSharp.Maybe{`0})~`0
+  name: Explicit(Maybe<T> to T)
+  href: api/MaybeSharp.Maybe-1.op_Explicit.html#MaybeSharp_Maybe_1_op_Explicit_MaybeSharp_Maybe__0____0
+  commentId: M:MaybeSharp.Maybe`1.op_Explicit(MaybeSharp.Maybe{`0})~`0
+  name.vb: Narrowing(Maybe(Of T) to T)
+  fullName: MaybeSharp.Maybe<T>.Explicit(MaybeSharp.Maybe<T> to T)
+  fullName.vb: MaybeSharp.Maybe(Of T).Narrowing(MaybeSharp.Maybe(Of T) to T)
+  nameWithType: Maybe<T>.Explicit(Maybe<T> to T)
+  nameWithType.vb: Maybe(Of T).Narrowing(Maybe(Of T) to T)
+- uid: MaybeSharp.Maybe`1.op_Explicit*
+  name: Explicit
+  href: api/MaybeSharp.Maybe-1.op_Explicit.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_Explicit
+  name.vb: Narrowing
+  fullName: MaybeSharp.Maybe<T>.Explicit
+  fullName.vb: MaybeSharp.Maybe(Of T).Narrowing
+  nameWithType: Maybe<T>.Explicit
+  nameWithType.vb: Maybe(Of T).Narrowing
+- uid: MaybeSharp.Maybe`1.op_GreaterThan(MaybeSharp.Maybe{`0},`0)
+  name: GreaterThan(Maybe<T>, T)
+  href: api/MaybeSharp.Maybe-1.op_GreaterThan.html#MaybeSharp_Maybe_1_op_GreaterThan_MaybeSharp_Maybe__0___0_
+  commentId: M:MaybeSharp.Maybe`1.op_GreaterThan(MaybeSharp.Maybe{`0},`0)
+  name.vb: GreaterThan(Maybe(Of T), T)
+  fullName: MaybeSharp.Maybe<T>.GreaterThan(MaybeSharp.Maybe<T>, T)
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThan(MaybeSharp.Maybe(Of T), T)
+  nameWithType: Maybe<T>.GreaterThan(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).GreaterThan(Maybe(Of T), T)
+- uid: MaybeSharp.Maybe`1.op_GreaterThan(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: GreaterThan(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_GreaterThan.html#MaybeSharp_Maybe_1_op_GreaterThan_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_GreaterThan(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: GreaterThan(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.GreaterThan(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThan(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.GreaterThan(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).GreaterThan(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_GreaterThan*
+  name: GreaterThan
+  href: api/MaybeSharp.Maybe-1.op_GreaterThan.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_GreaterThan
+  fullName: MaybeSharp.Maybe<T>.GreaterThan
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThan
+  nameWithType: Maybe<T>.GreaterThan
+  nameWithType.vb: Maybe(Of T).GreaterThan
+- uid: MaybeSharp.Maybe`1.op_GreaterThanOrEqual(MaybeSharp.Maybe{`0},`0)
+  name: GreaterThanOrEqual(Maybe<T>, T)
+  href: api/MaybeSharp.Maybe-1.op_GreaterThanOrEqual.html#MaybeSharp_Maybe_1_op_GreaterThanOrEqual_MaybeSharp_Maybe__0___0_
+  commentId: M:MaybeSharp.Maybe`1.op_GreaterThanOrEqual(MaybeSharp.Maybe{`0},`0)
+  name.vb: GreaterThanOrEqual(Maybe(Of T), T)
+  fullName: MaybeSharp.Maybe<T>.GreaterThanOrEqual(MaybeSharp.Maybe<T>, T)
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThanOrEqual(MaybeSharp.Maybe(Of T), T)
+  nameWithType: Maybe<T>.GreaterThanOrEqual(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).GreaterThanOrEqual(Maybe(Of T), T)
+- uid: MaybeSharp.Maybe`1.op_GreaterThanOrEqual(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: GreaterThanOrEqual(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_GreaterThanOrEqual.html#MaybeSharp_Maybe_1_op_GreaterThanOrEqual_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_GreaterThanOrEqual(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: GreaterThanOrEqual(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.GreaterThanOrEqual(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThanOrEqual(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.GreaterThanOrEqual(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).GreaterThanOrEqual(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_GreaterThanOrEqual*
+  name: GreaterThanOrEqual
+  href: api/MaybeSharp.Maybe-1.op_GreaterThanOrEqual.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_GreaterThanOrEqual
+  fullName: MaybeSharp.Maybe<T>.GreaterThanOrEqual
+  fullName.vb: MaybeSharp.Maybe(Of T).GreaterThanOrEqual
+  nameWithType: Maybe<T>.GreaterThanOrEqual
+  nameWithType.vb: Maybe(Of T).GreaterThanOrEqual
+- uid: MaybeSharp.Maybe`1.op_Implicit(`0)~MaybeSharp.Maybe{`0}
+  name: Implicit(T to Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_Implicit.html#MaybeSharp_Maybe_1_op_Implicit__0__MaybeSharp_Maybe__0_
+  commentId: M:MaybeSharp.Maybe`1.op_Implicit(`0)~MaybeSharp.Maybe{`0}
+  name.vb: Widening(T to Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.Implicit(T to MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Widening(T to MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.Implicit(T to Maybe<T>)
+  nameWithType.vb: Maybe(Of T).Widening(T to Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_Implicit*
+  name: Implicit
+  href: api/MaybeSharp.Maybe-1.op_Implicit.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_Implicit
+  name.vb: Widening
+  fullName: MaybeSharp.Maybe<T>.Implicit
+  fullName.vb: MaybeSharp.Maybe(Of T).Widening
+  nameWithType: Maybe<T>.Implicit
+  nameWithType.vb: Maybe(Of T).Widening
+- uid: MaybeSharp.Maybe`1.op_Inequality(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: Inequality(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_Inequality.html#MaybeSharp_Maybe_1_op_Inequality_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_Inequality(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: Inequality(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.Inequality(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).Inequality(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.Inequality(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).Inequality(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_Inequality*
+  name: Inequality
+  href: api/MaybeSharp.Maybe-1.op_Inequality.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_Inequality
+  fullName: MaybeSharp.Maybe<T>.Inequality
+  fullName.vb: MaybeSharp.Maybe(Of T).Inequality
+  nameWithType: Maybe<T>.Inequality
+  nameWithType.vb: Maybe(Of T).Inequality
+- uid: MaybeSharp.Maybe`1.op_LessThan(MaybeSharp.Maybe{`0},`0)
+  name: LessThan(Maybe<T>, T)
+  href: api/MaybeSharp.Maybe-1.op_LessThan.html#MaybeSharp_Maybe_1_op_LessThan_MaybeSharp_Maybe__0___0_
+  commentId: M:MaybeSharp.Maybe`1.op_LessThan(MaybeSharp.Maybe{`0},`0)
+  name.vb: LessThan(Maybe(Of T), T)
+  fullName: MaybeSharp.Maybe<T>.LessThan(MaybeSharp.Maybe<T>, T)
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThan(MaybeSharp.Maybe(Of T), T)
+  nameWithType: Maybe<T>.LessThan(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).LessThan(Maybe(Of T), T)
+- uid: MaybeSharp.Maybe`1.op_LessThan(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: LessThan(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_LessThan.html#MaybeSharp_Maybe_1_op_LessThan_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_LessThan(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: LessThan(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.LessThan(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThan(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.LessThan(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).LessThan(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_LessThan*
+  name: LessThan
+  href: api/MaybeSharp.Maybe-1.op_LessThan.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_LessThan
+  fullName: MaybeSharp.Maybe<T>.LessThan
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThan
+  nameWithType: Maybe<T>.LessThan
+  nameWithType.vb: Maybe(Of T).LessThan
+- uid: MaybeSharp.Maybe`1.op_LessThanOrEqual(MaybeSharp.Maybe{`0},`0)
+  name: LessThanOrEqual(Maybe<T>, T)
+  href: api/MaybeSharp.Maybe-1.op_LessThanOrEqual.html#MaybeSharp_Maybe_1_op_LessThanOrEqual_MaybeSharp_Maybe__0___0_
+  commentId: M:MaybeSharp.Maybe`1.op_LessThanOrEqual(MaybeSharp.Maybe{`0},`0)
+  name.vb: LessThanOrEqual(Maybe(Of T), T)
+  fullName: MaybeSharp.Maybe<T>.LessThanOrEqual(MaybeSharp.Maybe<T>, T)
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThanOrEqual(MaybeSharp.Maybe(Of T), T)
+  nameWithType: Maybe<T>.LessThanOrEqual(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).LessThanOrEqual(Maybe(Of T), T)
+- uid: MaybeSharp.Maybe`1.op_LessThanOrEqual(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name: LessThanOrEqual(Maybe<T>, Maybe<T>)
+  href: api/MaybeSharp.Maybe-1.op_LessThanOrEqual.html#MaybeSharp_Maybe_1_op_LessThanOrEqual_MaybeSharp_Maybe__0__MaybeSharp_Maybe__0__
+  commentId: M:MaybeSharp.Maybe`1.op_LessThanOrEqual(MaybeSharp.Maybe{`0},MaybeSharp.Maybe{`0})
+  name.vb: LessThanOrEqual(Maybe(Of T), Maybe(Of T))
+  fullName: MaybeSharp.Maybe<T>.LessThanOrEqual(MaybeSharp.Maybe<T>, MaybeSharp.Maybe<T>)
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThanOrEqual(MaybeSharp.Maybe(Of T), MaybeSharp.Maybe(Of T))
+  nameWithType: Maybe<T>.LessThanOrEqual(Maybe<T>, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).LessThanOrEqual(Maybe(Of T), Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.op_LessThanOrEqual*
+  name: LessThanOrEqual
+  href: api/MaybeSharp.Maybe-1.op_LessThanOrEqual.html
+  commentId: Overload:MaybeSharp.Maybe`1.op_LessThanOrEqual
+  fullName: MaybeSharp.Maybe<T>.LessThanOrEqual
+  fullName.vb: MaybeSharp.Maybe(Of T).LessThanOrEqual
+  nameWithType: Maybe<T>.LessThanOrEqual
+  nameWithType.vb: Maybe(Of T).LessThanOrEqual
+- uid: MaybeSharp.Maybe`1.ToString
+  name: ToString()
+  href: api/MaybeSharp.Maybe-1.ToString.html#MaybeSharp_Maybe_1_ToString
+  commentId: M:MaybeSharp.Maybe`1.ToString
+  fullName: MaybeSharp.Maybe<T>.ToString()
+  fullName.vb: MaybeSharp.Maybe(Of T).ToString()
+  nameWithType: Maybe<T>.ToString()
+  nameWithType.vb: Maybe(Of T).ToString()
+- uid: MaybeSharp.Maybe`1.ToString(System.String,IFormatProvider)
+  name: ToString(String, IFormatProvider)
+  href: api/MaybeSharp.Maybe-1.ToString.html#MaybeSharp_Maybe_1_ToString_System_String_IFormatProvider_
+  commentId: M:MaybeSharp.Maybe`1.ToString(System.String,IFormatProvider)
+  fullName: MaybeSharp.Maybe<T>.ToString(System.String, IFormatProvider)
+  fullName.vb: MaybeSharp.Maybe(Of T).ToString(System.String, IFormatProvider)
+  nameWithType: Maybe<T>.ToString(String, IFormatProvider)
+  nameWithType.vb: Maybe(Of T).ToString(String, IFormatProvider)
+- uid: MaybeSharp.Maybe`1.ToString*
+  name: ToString
+  href: api/MaybeSharp.Maybe-1.ToString.html
+  commentId: Overload:MaybeSharp.Maybe`1.ToString
+  fullName: MaybeSharp.Maybe<T>.ToString
+  fullName.vb: MaybeSharp.Maybe(Of T).ToString
+  nameWithType: Maybe<T>.ToString
+  nameWithType.vb: Maybe(Of T).ToString
+- uid: MaybeSharp.Maybe`1.Value
+  name: Value
+  href: api/MaybeSharp.Maybe-1.Value.html#MaybeSharp_Maybe_1_Value
+  commentId: P:MaybeSharp.Maybe`1.Value
+  fullName: MaybeSharp.Maybe<T>.Value
+  fullName.vb: MaybeSharp.Maybe(Of T).Value
+  nameWithType: Maybe<T>.Value
+  nameWithType.vb: Maybe(Of T).Value
+- uid: MaybeSharp.Maybe`1.Value*
+  name: Value
+  href: api/MaybeSharp.Maybe-1.Value.html
+  commentId: Overload:MaybeSharp.Maybe`1.Value
+  fullName: MaybeSharp.Maybe<T>.Value
+  fullName.vb: MaybeSharp.Maybe(Of T).Value
+  nameWithType: Maybe<T>.Value
+  nameWithType.vb: Maybe(Of T).Value

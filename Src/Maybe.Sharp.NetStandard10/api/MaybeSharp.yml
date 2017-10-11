@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: MaybeSharp
+  commentId: N:MaybeSharp
+  id: MaybeSharp
+  children:
+  - MaybeSharp.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: MaybeSharp
+  nameWithType: MaybeSharp
+  fullName: MaybeSharp
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: MaybeSharp.Maybe`1
+  commentId: T:MaybeSharp.Maybe`1
+  parent: MaybeSharp
+  isExternal: false
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: MaybeSharp.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp
+  commentId: N:MaybeSharp
+  isExternal: false
+  name: MaybeSharp
+  nameWithType: MaybeSharp
+  fullName: MaybeSharp

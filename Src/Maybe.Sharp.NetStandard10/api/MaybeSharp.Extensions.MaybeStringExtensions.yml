@@ -1,0 +1,1415 @@
+### YamlMime:ManagedReference
+items:
+- uid: MaybeSharp.Extensions.MaybeStringExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeStringExtensions
+  id: MaybeStringExtensions
+  parent: MaybeSharp.Extensions
+  children:
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  - MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MaybeStringExtensions
+  nameWithType: MaybeStringExtensions
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions
+  type: Class
+  source:
+    id: MaybeStringExtensions
+    path: ''
+    startLine: 1032
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nProvides extension methods to <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> for working with <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> values;\n"
+  example: []
+  syntax:
+    content: public static class MaybeStringExtensions
+    content.vb: Public Module MaybeStringExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  id: TryParseByte(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseByte(String)
+  nameWithType: MaybeStringExtensions.TryParseByte(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte(System.String)
+  type: Method
+  source:
+    id: TryParseByte
+    path: ''
+    startLine: 1040
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Byte\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Byte> TryParseByte(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Byte}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid byte value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseByte(source As String) As Maybe(Of Byte)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  id: TryParseInt16(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseInt16(String)
+  nameWithType: MaybeStringExtensions.TryParseInt16(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16(System.String)
+  type: Method
+  source:
+    id: TryParseInt16
+    path: ''
+    startLine: 1055
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Int16> TryParseInt16(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Int16}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Int16 value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseInt16(source As String) As Maybe(Of Int16)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  id: TryParseInt(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseInt(String)
+  nameWithType: MaybeStringExtensions.TryParseInt(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt(System.String)
+  type: Method
+  source:
+    id: TryParseInt
+    path: ''
+    startLine: 1070
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<int> TryParseInt(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{System.Int32}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Int32 value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseInt(source As String) As Maybe(Of Integer)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  id: TryParseInt64(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseInt64(String)
+  nameWithType: MaybeStringExtensions.TryParseInt64(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64(System.String)
+  type: Method
+  source:
+    id: TryParseInt64
+    path: ''
+    startLine: 1085
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Int64> TryParseInt64(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Int64}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Int64 value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseInt64(source As String) As Maybe(Of Int64)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  id: TryParseSingle(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseSingle(String)
+  nameWithType: MaybeStringExtensions.TryParseSingle(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle(System.String)
+  type: Method
+  source:
+    id: TryParseSingle
+    path: ''
+    startLine: 1100
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Single\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Single> TryParseSingle(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Single}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Single value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseSingle(source As String) As Maybe(Of Single)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  id: TryParseDouble(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseDouble(String)
+  nameWithType: MaybeStringExtensions.TryParseDouble(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble(System.String)
+  type: Method
+  source:
+    id: TryParseDouble
+    path: ''
+    startLine: 1115
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Double> TryParseDouble(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Double}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Double value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseDouble(source As String) As Maybe(Of Double)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  id: TryParseBoolean(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseBoolean(String)
+  nameWithType: MaybeStringExtensions.TryParseBoolean(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean(System.String)
+  type: Method
+  source:
+    id: TryParseBoolean
+    path: ''
+    startLine: 1130
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Boolean> TryParseBoolean(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Boolean}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Boolean value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseBoolean(source As String) As Maybe(Of Boolean)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  id: TryParseChar(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseChar(String)
+  nameWithType: MaybeStringExtensions.TryParseChar(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar(System.String)
+  type: Method
+  source:
+    id: TryParseChar
+    path: ''
+    startLine: 1145
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Char\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Char> TryParseChar(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Char}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Char value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseChar(source As String) As Maybe(Of Char)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  id: TryParseDecimal(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseDecimal(String)
+  nameWithType: MaybeStringExtensions.TryParseDecimal(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal(System.String)
+  type: Method
+  source:
+    id: TryParseDecimal
+    path: ''
+    startLine: 1160
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.Decimal\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<Decimal> TryParseDecimal(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{Decimal}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid Decimal value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseDecimal(source As String) As Maybe(Of Decimal)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  id: TryParseDateTime(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseDateTime(String)
+  nameWithType: MaybeStringExtensions.TryParseDateTime(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime(System.String)
+  type: Method
+  source:
+    id: TryParseDateTime
+    path: ''
+    startLine: 1175
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<DateTime> TryParseDateTime(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{DateTime}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid DateTime value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseDateTime(source As String) As Maybe(Of DateTime)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  commentId: M:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  id: TryParseDateTimeOffset(System.String)
+  isExtensionMethod: true
+  parent: MaybeSharp.Extensions.MaybeStringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseDateTimeOffset(String)
+  nameWithType: MaybeStringExtensions.TryParseDateTimeOffset(String)
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset(System.String)
+  type: Method
+  source:
+    id: TryParseDateTimeOffset
+    path: ''
+    startLine: 1190
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp.Extensions
+  summary: "\nAttempts to parse a string to a <xref href=\"MaybeSharp.Maybe%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>. If the parse fails (or <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> is null) an empty maybe is returned.\n"
+  example: []
+  syntax:
+    content: public static Maybe<DateTimeOffset> TryParseDateTimeOffset(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: The string to parse.
+    return:
+      type: MaybeSharp.Maybe{DateTimeOffset}
+      description: A <xref href="MaybeSharp.Maybe%601" data-throw-if-not-resolved="false"></xref> containing a valid DateTimeOffset value parsed from the string, or an empty maybe instance if the parse failed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParseDateTimeOffset(source As String) As Maybe(Of DateTimeOffset)
+  overload: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MaybeSharp.Maybe`1
+  commentId: T:MaybeSharp.Maybe`1
+  parent: MaybeSharp
+  isExternal: false
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: MaybeSharp.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: MaybeSharp.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaybeSharp.Extensions
+  commentId: N:MaybeSharp.Extensions
+  isExternal: false
+  name: MaybeSharp.Extensions
+  nameWithType: MaybeSharp.Extensions
+  fullName: MaybeSharp.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MaybeSharp
+  commentId: N:MaybeSharp
+  isExternal: false
+  name: MaybeSharp
+  nameWithType: MaybeSharp
+  fullName: MaybeSharp
+- uid: System.Byte
+  commentId: T:System.Byte
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte
+  isExternal: false
+  name: TryParseByte
+  nameWithType: MaybeStringExtensions.TryParseByte
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte
+- uid: MaybeSharp.Maybe{Byte}
+  commentId: T:MaybeSharp.Maybe{Byte}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Byte>
+  nameWithType: Maybe<Byte>
+  fullName: MaybeSharp.Maybe<Byte>
+  nameWithType.vb: Maybe(Of Byte)
+  fullName.vb: MaybeSharp.Maybe(Of Byte)
+  name.vb: Maybe(Of Byte)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int16
+  commentId: T:System.Int16
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16
+  isExternal: false
+  name: TryParseInt16
+  nameWithType: MaybeStringExtensions.TryParseInt16
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16
+- uid: MaybeSharp.Maybe{Int16}
+  commentId: T:MaybeSharp.Maybe{Int16}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Int16>
+  nameWithType: Maybe<Int16>
+  fullName: MaybeSharp.Maybe<Int16>
+  nameWithType.vb: Maybe(Of Int16)
+  fullName.vb: MaybeSharp.Maybe(Of Int16)
+  name.vb: Maybe(Of Int16)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt
+  isExternal: false
+  name: TryParseInt
+  nameWithType: MaybeStringExtensions.TryParseInt
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt
+- uid: MaybeSharp.Maybe{System.Int32}
+  commentId: T:MaybeSharp.Maybe{System.Int32}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Int32>
+  nameWithType: Maybe<Int32>
+  fullName: MaybeSharp.Maybe<System.Int32>
+  nameWithType.vb: Maybe(Of Int32)
+  fullName.vb: MaybeSharp.Maybe(Of System.Int32)
+  name.vb: Maybe(Of Int32)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64
+  isExternal: false
+  name: TryParseInt64
+  nameWithType: MaybeStringExtensions.TryParseInt64
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64
+- uid: MaybeSharp.Maybe{Int64}
+  commentId: T:MaybeSharp.Maybe{Int64}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Int64>
+  nameWithType: Maybe<Int64>
+  fullName: MaybeSharp.Maybe<Int64>
+  nameWithType.vb: Maybe(Of Int64)
+  fullName.vb: MaybeSharp.Maybe(Of Int64)
+  name.vb: Maybe(Of Int64)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle
+  isExternal: false
+  name: TryParseSingle
+  nameWithType: MaybeStringExtensions.TryParseSingle
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle
+- uid: MaybeSharp.Maybe{Single}
+  commentId: T:MaybeSharp.Maybe{Single}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Single>
+  nameWithType: Maybe<Single>
+  fullName: MaybeSharp.Maybe<Single>
+  nameWithType.vb: Maybe(Of Single)
+  fullName.vb: MaybeSharp.Maybe(Of Single)
+  name.vb: Maybe(Of Single)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Single
+    name: Single
+    nameWithType: Single
+    fullName: Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Single
+    name: Single
+    nameWithType: Single
+    fullName: Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Double
+  commentId: T:System.Double
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble
+  isExternal: false
+  name: TryParseDouble
+  nameWithType: MaybeStringExtensions.TryParseDouble
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble
+- uid: MaybeSharp.Maybe{Double}
+  commentId: T:MaybeSharp.Maybe{Double}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Double>
+  nameWithType: Maybe<Double>
+  fullName: MaybeSharp.Maybe<Double>
+  nameWithType.vb: Maybe(Of Double)
+  fullName.vb: MaybeSharp.Maybe(Of Double)
+  name.vb: Maybe(Of Double)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Double
+    name: Double
+    nameWithType: Double
+    fullName: Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Double
+    name: Double
+    nameWithType: Double
+    fullName: Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean
+  isExternal: false
+  name: TryParseBoolean
+  nameWithType: MaybeStringExtensions.TryParseBoolean
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean
+- uid: MaybeSharp.Maybe{Boolean}
+  commentId: T:MaybeSharp.Maybe{Boolean}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Boolean>
+  nameWithType: Maybe<Boolean>
+  fullName: MaybeSharp.Maybe<Boolean>
+  nameWithType.vb: Maybe(Of Boolean)
+  fullName.vb: MaybeSharp.Maybe(Of Boolean)
+  name.vb: Maybe(Of Boolean)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Char
+  commentId: T:System.Char
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar
+  isExternal: false
+  name: TryParseChar
+  nameWithType: MaybeStringExtensions.TryParseChar
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar
+- uid: MaybeSharp.Maybe{Char}
+  commentId: T:MaybeSharp.Maybe{Char}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Char>
+  nameWithType: Maybe<Char>
+  fullName: MaybeSharp.Maybe<Char>
+  nameWithType.vb: Maybe(Of Char)
+  fullName.vb: MaybeSharp.Maybe(Of Char)
+  name.vb: Maybe(Of Char)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Char
+    name: Char
+    nameWithType: Char
+    fullName: Char
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Char
+    name: Char
+    nameWithType: Char
+    fullName: Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Decimal
+  commentId: T:System.Decimal
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal
+  isExternal: false
+  name: TryParseDecimal
+  nameWithType: MaybeStringExtensions.TryParseDecimal
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal
+- uid: MaybeSharp.Maybe{Decimal}
+  commentId: T:MaybeSharp.Maybe{Decimal}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<Decimal>
+  nameWithType: Maybe<Decimal>
+  fullName: MaybeSharp.Maybe<Decimal>
+  nameWithType.vb: Maybe(Of Decimal)
+  fullName.vb: MaybeSharp.Maybe(Of Decimal)
+  name.vb: Maybe(Of Decimal)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: Decimal
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime
+  isExternal: false
+  name: TryParseDateTime
+  nameWithType: MaybeStringExtensions.TryParseDateTime
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTime
+- uid: MaybeSharp.Maybe{DateTime}
+  commentId: T:MaybeSharp.Maybe{DateTime}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<DateTime>
+  nameWithType: Maybe<DateTime>
+  fullName: MaybeSharp.Maybe<DateTime>
+  nameWithType.vb: Maybe(Of DateTime)
+  fullName.vb: MaybeSharp.Maybe(Of DateTime)
+  name.vb: Maybe(Of DateTime)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+- uid: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset*
+  commentId: Overload:MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset
+  isExternal: false
+  name: TryParseDateTimeOffset
+  nameWithType: MaybeStringExtensions.TryParseDateTimeOffset
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset
+- uid: MaybeSharp.Maybe{DateTimeOffset}
+  commentId: T:MaybeSharp.Maybe{DateTimeOffset}
+  parent: MaybeSharp
+  definition: MaybeSharp.Maybe`1
+  name: Maybe<DateTimeOffset>
+  nameWithType: Maybe<DateTimeOffset>
+  fullName: MaybeSharp.Maybe<DateTimeOffset>
+  nameWithType.vb: Maybe(Of DateTimeOffset)
+  fullName.vb: MaybeSharp.Maybe(Of DateTimeOffset)
+  name.vb: Maybe(Of DateTimeOffset)
+  spec.csharp:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: DateTimeOffset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: MaybeSharp.Maybe`1
+    name: Maybe
+    nameWithType: Maybe
+    fullName: MaybeSharp.Maybe
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: DateTimeOffset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

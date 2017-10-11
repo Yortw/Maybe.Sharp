@@ -24,4 +24,10 @@
 
 	<Import Project="..\MaybeSharp.Shared\MaybeSharp.Shared.projitems" Label="Shared" />
 
+	<ItemGroup>
+	  <PackageReference Include="docfx.console" Version="2.25.1" />
+	  <PackageReference Include="memberpage" Version="2.25.1" />
+	  <PackageReference Include="memberpage.plugins" Version="2.25.1" />
+	</ItemGroup>
+
 </Project>

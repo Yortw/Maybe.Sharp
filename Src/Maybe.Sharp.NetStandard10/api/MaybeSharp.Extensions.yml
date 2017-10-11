@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: MaybeSharp.Extensions
+  commentId: N:MaybeSharp.Extensions
+  id: MaybeSharp.Extensions
+  children:
+  - MaybeSharp.Extensions.MaybeDictionaryExtensions
+  - MaybeSharp.Extensions.MaybeExtensions
+  - MaybeSharp.Extensions.MaybeStringExtensions
+  - MaybeSharp.Extensions.NullableExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaybeSharp.Extensions
+  nameWithType: MaybeSharp.Extensions
+  fullName: MaybeSharp.Extensions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: MaybeSharp.Extensions.MaybeDictionaryExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeDictionaryExtensions
+  isExternal: false
+  name: MaybeDictionaryExtensions
+  nameWithType: MaybeDictionaryExtensions
+  fullName: MaybeSharp.Extensions.MaybeDictionaryExtensions
+- uid: MaybeSharp.Extensions.MaybeExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeExtensions
+  isExternal: false
+  name: MaybeExtensions
+  nameWithType: MaybeExtensions
+  fullName: MaybeSharp.Extensions.MaybeExtensions
+- uid: MaybeSharp.Extensions.MaybeStringExtensions
+  commentId: T:MaybeSharp.Extensions.MaybeStringExtensions
+  isExternal: false
+  name: MaybeStringExtensions
+  nameWithType: MaybeStringExtensions
+  fullName: MaybeSharp.Extensions.MaybeStringExtensions
+- uid: MaybeSharp.Extensions.NullableExtensions
+  commentId: T:MaybeSharp.Extensions.NullableExtensions
+  isExternal: false
+  name: NullableExtensions
+  nameWithType: NullableExtensions
+  fullName: MaybeSharp.Extensions.NullableExtensions
