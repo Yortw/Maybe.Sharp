@@ -527,5 +527,32 @@ namespace Maybe.Sharp.Tests
 			Assert.True(a != b);
 		}
 
+		[Fact]
+		public void Maybe_IEquatableT_ReturnsTrueWhenEqual()
+		{
+			var a = new Maybe<int>(4);
+			var b = 4;
+
+			Assert.True(((IEquatable<int>)a).Equals(b));
+		}
+
+		[Fact]
+		public void Maybe_Maybe_IEquatableT_ReturnsFalseUnequal()
+		{
+			var a = new Maybe<int>(6);
+			var b = 4;
+
+			Assert.False(((IEquatable<int>)a).Equals(b));
+		}
+
+		[Fact]
+		public void Maybe_Maybe_IEquatableT_ReturnsFalseWhenNoting()
+		{
+			var a = Maybe<int>.Nothing;
+			var b = 0;
+
+			Assert.False(((IEquatable<int>)a).Equals(b));
+		}
+
 	}
 }

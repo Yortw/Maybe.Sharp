@@ -13,6 +13,7 @@ items:
   - MaybeSharp.Maybe`1.CompareTo(`0)
   - MaybeSharp.Maybe`1.CompareTo(MaybeSharp.Maybe{`0})
   - MaybeSharp.Maybe`1.CompareTo(System.Object)
+  - MaybeSharp.Maybe`1.Equals(`0)
   - MaybeSharp.Maybe`1.Equals(MaybeSharp.Maybe{`0})
   - MaybeSharp.Maybe`1.Equals(System.Object)
   - MaybeSharp.Maybe`1.GetHashCode
@@ -51,15 +52,16 @@ items:
   summary: "\nRepresents a value that might be &apos;empty&apos; or a valid value.\n"
   example: []
   syntax:
-    content: 'public struct Maybe<T> : IEquatable<Maybe<T>>, IFormattable, IComparable, IComparable<Maybe<T>>, IComparable<T>'
+    content: 'public struct Maybe<T> : IEquatable<Maybe<T>>, IEquatable<T>, IFormattable, IComparable, IComparable<Maybe<T>>, IComparable<T>'
     typeParameters:
     - id: T
       description: ''
     content.vb: >-
       Public Structure Maybe(Of T)
-          Implements IEquatable(Of Maybe(Of T)), IFormattable, IComparable, IComparable(Of Maybe(Of T)), IComparable(Of T)
+          Implements IEquatable(Of Maybe(Of T)), IEquatable(Of T), IFormattable, IComparable, IComparable(Of Maybe(Of T)), IComparable(Of T)
   implements:
   - IEquatable{MaybeSharp.Maybe`1}
+  - IEquatable{{T}}
   - IFormattable
   - IComparable
   - IComparable{MaybeSharp.Maybe`1}
@@ -574,6 +576,44 @@ items:
   - Public
   fullName.vb: MaybeSharp.Maybe(Of T).Equals(MaybeSharp.Maybe(Of T))
   name.vb: Equals(Maybe(Of T))
+- uid: MaybeSharp.Maybe`1.Equals(`0)
+  commentId: M:MaybeSharp.Maybe`1.Equals(`0)
+  id: Equals(`0)
+  parent: MaybeSharp.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Equals(T)
+  nameWithType: Maybe<T>.Equals(T)
+  fullName: MaybeSharp.Maybe<T>.Equals(T)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 396
+  assemblies:
+  - cs.temp.dll
+  namespace: MaybeSharp
+  summary: "\nPerforms an equality check.\n"
+  remarks: "\n<p>A nothing/empty maybe is never equal to a T value.</p>\n"
+  example: []
+  syntax:
+    content: public bool Equals(T other)
+    parameters:
+    - id: other
+      type: '{T}'
+      description: A value to compare the nothing.
+    return:
+      type: System.Boolean
+      description: True if the values are considered equal, otherwise false.
+    content.vb: Public Function Equals(other As T) As Boolean
+  overload: MaybeSharp.Maybe`1.Equals*
+  nameWithType.vb: Maybe(Of T).Equals(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: MaybeSharp.Maybe(Of T).Equals(T)
 - uid: MaybeSharp.Maybe`1.ToString(System.String,IFormatProvider)
   commentId: M:MaybeSharp.Maybe`1.ToString(System.String,IFormatProvider)
   id: ToString(System.String,IFormatProvider)
@@ -588,7 +628,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 397
+    startLine: 416
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -629,7 +669,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 415
+    startLine: 434
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -666,7 +706,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 436
+    startLine: 455
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -704,7 +744,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 451
+    startLine: 470
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -742,7 +782,7 @@ items:
   source:
     id: op_Equality
     path: ''
-    startLine: 515
+    startLine: 534
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -786,7 +826,7 @@ items:
   source:
     id: op_Inequality
     path: ''
-    startLine: 530
+    startLine: 549
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -830,7 +870,7 @@ items:
   source:
     id: op_GreaterThan
     path: ''
-    startLine: 546
+    startLine: 565
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -874,7 +914,7 @@ items:
   source:
     id: op_LessThan
     path: ''
-    startLine: 560
+    startLine: 579
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -918,7 +958,7 @@ items:
   source:
     id: op_GreaterThanOrEqual
     path: ''
-    startLine: 574
+    startLine: 593
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -962,7 +1002,7 @@ items:
   source:
     id: op_LessThanOrEqual
     path: ''
-    startLine: 588
+    startLine: 607
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1006,7 +1046,7 @@ items:
   source:
     id: op_LessThan
     path: ''
-    startLine: 606
+    startLine: 625
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1050,7 +1090,7 @@ items:
   source:
     id: op_GreaterThan
     path: ''
-    startLine: 618
+    startLine: 637
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1094,7 +1134,7 @@ items:
   source:
     id: op_LessThanOrEqual
     path: ''
-    startLine: 630
+    startLine: 649
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1138,7 +1178,7 @@ items:
   source:
     id: op_GreaterThanOrEqual
     path: ''
-    startLine: 642
+    startLine: 661
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1182,7 +1222,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 655
+    startLine: 674
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1221,7 +1261,7 @@ items:
   source:
     id: op_Explicit
     path: ''
-    startLine: 667
+    startLine: 686
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp
@@ -1313,6 +1353,45 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEquatable{{T}}
+  commentId: '!:IEquatable{`0}'
+  definition: IEquatable`1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -1572,7 +1651,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: IEquatable`1
-  commentId: '!:IEquatable`1'
   isExternal: true
   name: IEquatable<>
   nameWithType: IEquatable<>

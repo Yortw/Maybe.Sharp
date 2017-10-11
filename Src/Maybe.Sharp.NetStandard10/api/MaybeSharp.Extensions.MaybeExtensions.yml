@@ -31,7 +31,7 @@ items:
   source:
     id: MaybeExtensions
     path: ''
-    startLine: 723
+    startLine: 742
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -72,7 +72,7 @@ items:
   source:
     id: Or
     path: ''
-    startLine: 738
+    startLine: 757
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -123,7 +123,7 @@ items:
   source:
     id: Coalesce
     path: ''
-    startLine: 753
+    startLine: 772
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -176,7 +176,7 @@ items:
   source:
     id: Coalesce
     path: ''
-    startLine: 766
+    startLine: 785
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -229,7 +229,7 @@ items:
   source:
     id: ValueOr
     path: ''
-    startLine: 789
+    startLine: 808
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -279,7 +279,7 @@ items:
   source:
     id: ValueOr
     path: ''
-    startLine: 803
+    startLine: 822
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -329,7 +329,7 @@ items:
   source:
     id: ValueOrException
     path: ''
-    startLine: 821
+    startLine: 840
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -379,7 +379,7 @@ items:
   source:
     id: ValueOrException
     path: ''
-    startLine: 835
+    startLine: 854
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -429,7 +429,7 @@ items:
   source:
     id: WhenSomething
     path: ''
-    startLine: 855
+    startLine: 874
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -483,7 +483,7 @@ items:
   source:
     id: WhenNothing
     path: ''
-    startLine: 872
+    startLine: 891
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -537,7 +537,7 @@ items:
   source:
     id: Where
     path: ''
-    startLine: 893
+    startLine: 912
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -591,7 +591,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 918
+    startLine: 937
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -648,7 +648,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 934
+    startLine: 953
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -704,7 +704,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 953
+    startLine: 972
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -761,7 +761,7 @@ items:
   source:
     id: SelectMany
     path: ''
-    startLine: 972
+    startLine: 991
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -822,7 +822,7 @@ items:
   source:
     id: SelectNonempty
     path: ''
-    startLine: 998
+    startLine: 1017
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -879,7 +879,7 @@ items:
   source:
     id: ToNullable
     path: ''
-    startLine: 1014
+    startLine: 1033
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions

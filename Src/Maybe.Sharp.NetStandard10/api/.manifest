@@ -43,6 +43,7 @@
   "MaybeSharp.Maybe`1.CompareTo(`0)": "MaybeSharp.Maybe-1.yml",
   "MaybeSharp.Maybe`1.CompareTo(MaybeSharp.Maybe{`0})": "MaybeSharp.Maybe-1.yml",
   "MaybeSharp.Maybe`1.CompareTo(System.Object)": "MaybeSharp.Maybe-1.yml",
+  "MaybeSharp.Maybe`1.Equals(`0)": "MaybeSharp.Maybe-1.yml",
   "MaybeSharp.Maybe`1.Equals(MaybeSharp.Maybe{`0})": "MaybeSharp.Maybe-1.yml",
   "MaybeSharp.Maybe`1.Equals(System.Object)": "MaybeSharp.Maybe-1.yml",
   "MaybeSharp.Maybe`1.GetHashCode": "MaybeSharp.Maybe-1.yml",

@@ -1,5 +1,5 @@
 # Maybe.Sharp
-A generic 'option' type for .Net, explicitly representing a value that is either 'something' or 'nothing.
+A generic 'option' type for .Net, explicitly representing a value that is either 'something' or 'nothing'.
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Maybe.Sharp/blob/master/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/Yortw/Maybe.Sharp/badge.svg?branch=master)](https://coveralls.io/github/Yortw/Maybe.Sharp?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/waxmch4c6sm96vaa?svg=true)](https://ci.appveyor.com/project/Yortw/maybe-sharp) [![NuGet Badge](https://buildstats.info/nuget/Maybe.Sharp)](https://www.nuget.org/packages/Maybe.Sharp/)
 
@@ -18,7 +18,7 @@ See the [API Documentation](file:///C:/Projects/GitHub/Maybe.Sharp/docs/api/Mayb
 
 * (In)Equality & GetHashCode overrides/implementation
 * \> \< >= <= operations for Maybe<T> and T values.
-* Implements IComparable<T>, IComparable<Maybe<T>>, IComparable, IEquatable<Maybe<T>>, IFormattable
+* Implements IComparable<T>, IComparable<Maybe<T>>, IComparable, IEquatable<Maybe<T>>, IEquatable<T>, IFormattable
 * Implict cast from T to Maybe<T>
 * Explicit cast from Maybe<T> to T (exception when 'nothing')
 * Bind method for piping Maybe<T> through functions

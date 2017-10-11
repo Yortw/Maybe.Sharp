@@ -16,7 +16,7 @@ items:
   source:
     id: MaybeDictionaryExtensions
     path: ''
-    startLine: 687
+    startLine: 706
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -57,7 +57,7 @@ items:
   source:
     id: TryGetValue
     path: ''
-    startLine: 699
+    startLine: 718
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions

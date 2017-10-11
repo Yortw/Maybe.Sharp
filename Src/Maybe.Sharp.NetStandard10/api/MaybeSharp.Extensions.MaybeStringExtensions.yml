@@ -26,7 +26,7 @@ items:
   source:
     id: MaybeStringExtensions
     path: ''
-    startLine: 1032
+    startLine: 1051
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -67,7 +67,7 @@ items:
   source:
     id: TryParseByte
     path: ''
-    startLine: 1040
+    startLine: 1059
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -108,7 +108,7 @@ items:
   source:
     id: TryParseInt16
     path: ''
-    startLine: 1055
+    startLine: 1074
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -149,7 +149,7 @@ items:
   source:
     id: TryParseInt
     path: ''
-    startLine: 1070
+    startLine: 1089
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -190,7 +190,7 @@ items:
   source:
     id: TryParseInt64
     path: ''
-    startLine: 1085
+    startLine: 1104
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -231,7 +231,7 @@ items:
   source:
     id: TryParseSingle
     path: ''
-    startLine: 1100
+    startLine: 1119
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -272,7 +272,7 @@ items:
   source:
     id: TryParseDouble
     path: ''
-    startLine: 1115
+    startLine: 1134
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -313,7 +313,7 @@ items:
   source:
     id: TryParseBoolean
     path: ''
-    startLine: 1130
+    startLine: 1149
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -354,7 +354,7 @@ items:
   source:
     id: TryParseChar
     path: ''
-    startLine: 1145
+    startLine: 1164
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -395,7 +395,7 @@ items:
   source:
     id: TryParseDecimal
     path: ''
-    startLine: 1160
+    startLine: 1179
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -436,7 +436,7 @@ items:
   source:
     id: TryParseDateTime
     path: ''
-    startLine: 1175
+    startLine: 1194
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions
@@ -477,7 +477,7 @@ items:
   source:
     id: TryParseDateTimeOffset
     path: ''
-    startLine: 1190
+    startLine: 1209
   assemblies:
   - cs.temp.dll
   namespace: MaybeSharp.Extensions

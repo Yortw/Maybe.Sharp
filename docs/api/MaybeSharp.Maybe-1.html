@@ -265,6 +265,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="MaybeSharp.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;T&gt;</div>
     <div><span class="xref">IFormattable</span></div>
     <div><span class="xref">IComparable</span></div>
     <div><span class="xref">IComparable</span>&lt;<a class="xref" href="MaybeSharp.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</div>
@@ -286,7 +287,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MaybeSharp_Maybe_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct Maybe&lt;T&gt; : IEquatable&lt;Maybe&lt;T&gt;&gt;, IFormattable, IComparable, IComparable&lt;Maybe&lt;T&gt;&gt;, IComparable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Maybe&lt;T&gt; : IEquatable&lt;Maybe&lt;T&gt;&gt;, IEquatable&lt;T&gt;, IFormattable, IComparable, IComparable&lt;Maybe&lt;T&gt;&gt;, IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,6 +432,13 @@
           <a class="xref" href="MaybeSharp.Maybe-1.CompareTo.html#MaybeSharp_Maybe_1_CompareTo_System_Object_">CompareTo(Object)</a>
         </td>
         <td class="markdown level1 summary"><p>Compares this instance to the value specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="MaybeSharp_Maybe_1_Equals__0_" data-uid="MaybeSharp.Maybe`1.Equals(`0)">
+          <a class="xref" href="MaybeSharp.Maybe-1.Equals.html#MaybeSharp_Maybe_1_Equals__0_">Equals(T)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Performs an equality check.</p>
 </td>
       </tr>
       <tr>

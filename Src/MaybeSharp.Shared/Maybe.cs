@@ -16,7 +16,7 @@ namespace MaybeSharp
 	[Serializable]
 #endif
 
-	public struct Maybe<T> : IEquatable<Maybe<T>>, IFormattable, IComparable, IComparable<Maybe<T>>, IComparable<T>
+	public struct Maybe<T> : IEquatable<Maybe<T>>, IEquatable<T>, IFormattable, IComparable, IComparable<Maybe<T>>, IComparable<T>
 	{
 
 		#region Fields & Constants
@@ -197,8 +197,27 @@ namespace MaybeSharp
 
 		#endregion
 
+		#region IEquatable<T> Implementation
+
+		/// <summary>
+		/// Performs an equality check.
+		/// </summary>
+		/// <remarks>
+		/// <para>A nothing/empty maybe is never equal to a T value.</para>
+		/// </remarks>
+		/// <param name="other">A value to compare the nothing.</param>
+		/// <returns>True if the values are considered equal, otherwise false.</returns>
+		public bool Equals(T other)
+		{
+			if (this.IsEmpty) return false;
+
+			return EqualityComparer<T>.Default.Equals(this.Value, other);
+		}
+
+		#endregion
+
 		#region IFormattable Implementation
-		
+
 		/// <summary>
 		/// Formats the value of the current instance using the specified format.
 		/// </summary>

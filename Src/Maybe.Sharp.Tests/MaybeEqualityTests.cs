@@ -94,7 +94,7 @@ namespace Maybe.Sharp.Tests
 		}
 
 		[Fact]
-		public void Maybe_EqualsObj_InequalOnNnull()
+		public void Maybe_EqualsObj_InequalOnNull()
 		{
 			var a = new Maybe<int>(5);
 			object b = null;
