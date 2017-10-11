@@ -93,14 +93,14 @@ namespace Maybe.Sharp.Tests
 			var values = new Maybe<int>[] { 1, 2, Maybe<int>.Nothing, 4, Maybe<int>.Nothing, Maybe<int>.Nothing, 7 };
 			List<Maybe<int>> results = System.Linq.Enumerable.ToList(values.Select<int, int>((mi) => mi + 2));
 			
-			Assert.NotEqual(null, results);
+			Assert.NotNull(results);
 			Assert.Equal(7, results.Count);
 			Assert.Equal(3, results[0].Value);
 			Assert.Equal(4, results[1].Value);
-			Assert.Equal(true, results[2].IsEmpty);
+			Assert.True(results[2].IsEmpty);
 			Assert.Equal(6, results[3].Value);
-			Assert.Equal(true, results[4].IsEmpty);
-			Assert.Equal(true, results[5].IsEmpty);
+			Assert.True(results[4].IsEmpty);
+			Assert.True(results[5].IsEmpty);
 			Assert.Equal(9, results[6].Value);
 		}
 
@@ -110,8 +110,8 @@ namespace Maybe.Sharp.Tests
 			Maybe<int>[] values = null;
 			List<Maybe<int>> results = System.Linq.Enumerable.ToList(values.Select<int, int>((mi) => mi + 2));
 
-			Assert.NotEqual(null, results);
-			Assert.Equal(0, results.Count);
+			Assert.NotNull(results);
+			Assert.Empty(results);
 		}
 
 		[Fact]

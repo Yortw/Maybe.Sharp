@@ -15,12 +15,11 @@ namespace Maybe.Sharp.Tests
 			var s = "True";
 			var m = s.TryParseBoolean();
 			Assert.False(m.IsEmpty);
-			Assert.Equal(true, m.Value);
+			Assert.True(m.Value);
 
 			s = "False";
 			m = s.TryParseBoolean();
-			Assert.False(m.IsEmpty);
-			Assert.Equal(false, m.Value);
+			Assert.False(m.Value);
 		}
 
 		[Fact]

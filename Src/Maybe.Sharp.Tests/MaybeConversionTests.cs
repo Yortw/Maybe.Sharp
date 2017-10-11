@@ -74,7 +74,7 @@ namespace Maybe.Sharp.Tests
 		public void Maybe_ToNullable_ReturnsNullNullableWhenEmpty()
 		{
 			var maybe = Maybe<int>.Nothing;
-			Assert.Equal(null, maybe.ToNullable());
+			Assert.Null(maybe.ToNullable());
 		}
 
 		[Fact]

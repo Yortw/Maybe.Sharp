@@ -32,7 +32,7 @@ namespace Maybe.Sharp.Tests
 			var a = Maybe<int>.Nothing;
 			var wasCalled = false;
 			a.WhenSomething((i) => wasCalled = true);
-			Assert.Equal(false, wasCalled);
+			Assert.False(wasCalled);
 		}
 
 
@@ -49,7 +49,7 @@ namespace Maybe.Sharp.Tests
 			var a = Maybe<int>.Nothing;
 			var wasCalled = false;
 			a.WhenNothing(() => wasCalled = true);
-			Assert.Equal(true, wasCalled);
+			Assert.True(wasCalled);
 		}
 
 		[Fact]
@@ -58,7 +58,7 @@ namespace Maybe.Sharp.Tests
 			var a = new Maybe<int>(5);
 			var wasCalled = false;
 			a.WhenNothing(() => wasCalled = true);
-			Assert.Equal(false, wasCalled);
+			Assert.False(wasCalled);
 		}
 
 
