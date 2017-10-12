@@ -1,7 +1,7 @@
 # Maybe.Sharp
 A generic 'option' type for .Net, explicitly representing a value that is either 'something' or 'nothing'.
 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Maybe.Sharp/blob/master/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/Yortw/Maybe.Sharp/badge.svg?branch=master)](https://coveralls.io/github/Yortw/Maybe.Sharp?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/waxmch4c6sm96vaa?svg=true)](https://ci.appveyor.com/project/Yortw/maybe-sharp) [![NuGet Badge](https://buildstats.info/nuget/Maybe.Sharp)](https://www.nuget.org/packages/Maybe.Sharp/)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Maybe.Sharp/blob/master/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/Yortw/Maybe.Sharp/badge.svg?branch=master)](https://coveralls.io/github/Yortw/Maybe.Sharp?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/yxjln5gns7qcbt9v?svg=true)](https://ci.appveyor.com/project/Yortw/maybe-sharp) [![NuGet Badge](https://buildstats.info/nuget/Maybe.Sharp)](https://www.nuget.org/packages/Maybe.Sharp/)
 
 ```powershell
     PM> Install-Package Maybe.Sharp
