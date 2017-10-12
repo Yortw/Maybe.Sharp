@@ -17,7 +17,7 @@ See the [API Documentation](file:///C:/Projects/GitHub/Maybe.Sharp/docs/api/Mayb
     * Instances of Maybe<T>  cannot be null
 
 * (In)Equality & GetHashCode overrides/implementation
-* \> \< >= <= operations for Maybe<T> and T values.
+* \> \< >= <= operators for Maybe<T> and T values.
 * Implements IComparable<T>, IComparable<Maybe<T>>, IComparable, IEquatable<Maybe<T>>, IEquatable<T>, IFormattable
 * Implict cast from T to Maybe<T>
 * Explicit cast from Maybe<T> to T (exception when 'nothing')
