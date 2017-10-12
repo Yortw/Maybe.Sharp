@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Maybe.Sharp | Maybe.Sharp </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Maybe.Sharp | Maybe.Sharp ">
+    <meta name="generator" content="docfx 2.25.1.0">
+    
+    <link rel="shortcut icon" href="images/MaybeIcon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/MaybeIconSmall.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="maybesharp">Maybe.Sharp</h1>
+
+<p>A generic &#39;option&#39; type for .Net, explicitly representing a value that is either &#39;something&#39; or &#39;nothing&#39;.</p>
+<p><a href="https://github.com/Yortw/Maybe.Sharp/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="GitHub license"></a> <a href="https://coveralls.io/github/Yortw/Maybe.Sharp?branch=master"><img src="https://coveralls.io/repos/github/Yortw/Maybe.Sharp/badge.svg?branch=master" alt="Coverage Status"></a> <a href="https://ci.appveyor.com/project/Yortw/maybe-sharp"><img src="https://ci.appveyor.com/api/projects/status/yxjln5gns7qcbt9v?svg=true" alt="Build status"></a> <a href="https://www.nuget.org/packages/Maybe.Sharp/"><img src="https://buildstats.info/nuget/Maybe.Sharp" alt="NuGet Badge"></a></p>
+<pre><code class="lang-powershell">    PM&gt; Install-Package Maybe.Sharp
+</code></pre><h1 id="why-">Why ?</h1>
+<p>Yes there are plenty of maybe/option types for .Net, but I couldn&#39;t find one that met all my requirements, hence Maybe.Sharp exists.</p>
+<h1 id="features">Features</h1>
+<p>See the <a href="file:///C:/Projects/GitHub/Maybe.Sharp/docs/api/MaybeSharp.Maybe-1.html">API Documentation</a> for contents/help.</p>
+<ul>
+<li><p>Struct/Value type </p>
+<ul>
+<li>Instances of Maybe<t>  cannot be null</t></li>
+</ul>
+</li>
+<li><p>(In)Equality &amp; GetHashCode overrides/implementation</p>
+</li>
+<li>> &lt; &gt;= &lt;= operators for Maybe<t> and T values.</t></li>
+<li>Implements IComparable<t>, IComparable&lt;Maybe<t>&gt;, IComparable, IEquatable&lt;Maybe<t>&gt;, IEquatable<t>, IFormattable</t></t></t></t></li>
+<li>Implict cast from T to Maybe<t></t></li>
+<li>Explicit cast from Maybe<t> to T (exception when &#39;nothing&#39;)</t></li>
+<li>Bind method for piping Maybe<t> through functions</t></li>
+<li>Chainable WhenSomething/WhenNothing for control flow</li>
+<li>Static Nothing value for each Maybe<t> type.</t></li>
+<li>Maybe<t> of other value types (not just reference types), i.e Maybe<t> of System.Guid is &#39;empty&#39;/&#39;nothing when the inner value is System.Guid.Empty. Same for DateTime when the value is DateTime.MinValue etc.</t></t></li>
+<li>Cast/As methods for converting Maybe<t> to Maybe<x></x></t></li>
+<li>ToString override</li>
+<li>TryGetValue extension for IDictionary&lt;K, V&gt;</li>
+<li>Or method to Coalesce Maybe<t></t></li>
+<li>ValueOr method for retrieving wrapped value or default value when empty</li>
+<li>ToNullable to convert Maybe<t> to a Nullable<t> equivalent</t></t></li>
+<li>ToMaybe extension for Nullable<t> values.</t></li>
+<li>LINQ support via where and select extensions</li>
+<li>TryParse extensions for System.String</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Yortw/Maybe.Sharp/blob/master/Src/Maybe.Sharp.NetStandard10/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 2017 Troy Willmot
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

@@ -30,4 +30,8 @@
 	  <PackageReference Include="memberpage.plugins" Version="2.25.1" />
 	</ItemGroup>
 
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+	  <Exec Command="xcopy &quot;$(SolutionDir)..\README.md&quot; &quot;$(ProjectDir)index.md&quot; /Y" />
+	</Target>
+
 </Project>
