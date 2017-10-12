@@ -11,7 +11,7 @@ A generic 'option' type for .Net, explicitly representing a value that is either
 Yes there are plenty of maybe/option types for .Net, but I couldn't find one that met all my requirements, hence Maybe.Sharp exists.
 
 # Features
-See the [API Documentation](file:///C:/Projects/GitHub/Maybe.Sharp/docs/api/MaybeSharp.Maybe-1.html) for contents/help.
+See the [API Documentation](api/MaybeSharp.Maybe-1.html) for contents/help.
 
 * Struct/Value type 
     * Instances of Maybe<T>  cannot be null

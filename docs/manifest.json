@@ -8,8 +8,8 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.html",
-          "hash": "DX3teFQNC6TFTBEJkHEZgw=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue.html",
+          "hash": "8WaDcO2/hp6QKrQ39UKd5g=="
         }
       },
       "is_incremental": false,
@@ -20,8 +20,8 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.TryGetValue.html",
-          "hash": "8WaDcO2/hp6QKrQ39UKd5g=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeDictionaryExtensions.html",
+          "hash": "DX3teFQNC6TFTBEJkHEZgw=="
         }
       },
       "is_incremental": false,
@@ -32,116 +32,8 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Or.html",
-          "hash": "L2uZgPiVWoQ3iSbder17vQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Coalesce.html",
-          "hash": "H4HMhZrWIA89yD6ji+qiag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ValueOr.html",
-          "hash": "dH0VoP8HcA7Ecmgg9xRw5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ValueOrException.html",
-          "hash": "otE/9d7L29BkGFZ2uZYaNg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.WhenSomething.html",
-          "hash": "O8i13p2pBKKJ910ieUZJHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.WhenNothing.html",
-          "hash": "ZdvObdpo5xG5+GdjBL2hMQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Where.html",
-          "hash": "MpJvXzNI62RyyjNSzKjw9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Select.html",
-          "hash": "ZPOxpDsHBWJZTjIgEDxj8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.SelectMany.html",
-          "hash": "zCNubKu4+c7zZab4k0D7cA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.SelectNonempty.html",
-          "hash": "uMeq2hnkOl5yCsNbbwZpSQ=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ToNullable.html",
+          "hash": "zLsSK0FsqIZHJin+hBLrXw=="
         }
       },
       "is_incremental": false,
@@ -164,8 +56,116 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ToNullable.html",
-          "hash": "zLsSK0FsqIZHJin+hBLrXw=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.SelectNonempty.html",
+          "hash": "uMeq2hnkOl5yCsNbbwZpSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.SelectMany.html",
+          "hash": "zCNubKu4+c7zZab4k0D7cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Select.html",
+          "hash": "ZPOxpDsHBWJZTjIgEDxj8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Where.html",
+          "hash": "MpJvXzNI62RyyjNSzKjw9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.WhenNothing.html",
+          "hash": "ZdvObdpo5xG5+GdjBL2hMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.WhenSomething.html",
+          "hash": "O8i13p2pBKKJ910ieUZJHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ValueOrException.html",
+          "hash": "otE/9d7L29BkGFZ2uZYaNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.ValueOr.html",
+          "hash": "dH0VoP8HcA7Ecmgg9xRw5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Coalesce.html",
+          "hash": "H4HMhZrWIA89yD6ji+qiag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeExtensions.Or.html",
+          "hash": "L2uZgPiVWoQ3iSbder17vQ=="
         }
       },
       "is_incremental": false,
@@ -176,116 +176,8 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.html",
-          "hash": "ZcCNdpRtdLGqmov5Vngzew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte.html",
-          "hash": "8eF1nlEXewsJAu5BhGup6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16.html",
-          "hash": "DeIA3rtjmHLooL9bWOqCOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt.html",
-          "hash": "laPj0me+mupP5dclMQKutQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64.html",
-          "hash": "g5qH55MNNCBRJuDJvneCbg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle.html",
-          "hash": "fUfsc6FPQWQ8H6wdEUHtIw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble.html",
-          "hash": "gu1ec3oghXXyOf/Dz1lLOg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean.html",
-          "hash": "gTpV4ovuT2qLe2A8zjsecQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar.html",
-          "hash": "nbY+E3m6B7M6cuguY2Sq2w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal.html",
-          "hash": "Ns2OpxVGB5WK0mrkyIlIxQ=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset.html",
+          "hash": "UqRwIinwaycLCS4WnzXkvg=="
         }
       },
       "is_incremental": false,
@@ -308,8 +200,8 @@
       "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDateTimeOffset.html",
-          "hash": "UqRwIinwaycLCS4WnzXkvg=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDecimal.html",
+          "hash": "Ns2OpxVGB5WK0mrkyIlIxQ=="
         }
       },
       "is_incremental": false,
@@ -317,11 +209,107 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Extensions.NullableExtensions.yml",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Extensions.NullableExtensions.ToMaybe.html",
-          "hash": "LBX9F31GSFnNF0MESvwFsQ=="
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseChar.html",
+          "hash": "nbY+E3m6B7M6cuguY2Sq2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseBoolean.html",
+          "hash": "gTpV4ovuT2qLe2A8zjsecQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseDouble.html",
+          "hash": "gu1ec3oghXXyOf/Dz1lLOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseSingle.html",
+          "hash": "fUfsc6FPQWQ8H6wdEUHtIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt64.html",
+          "hash": "g5qH55MNNCBRJuDJvneCbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt.html",
+          "hash": "laPj0me+mupP5dclMQKutQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseInt16.html",
+          "hash": "DeIA3rtjmHLooL9bWOqCOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.TryParseByte.html",
+          "hash": "8eF1nlEXewsJAu5BhGup6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.MaybeStringExtensions.html",
+          "hash": "ZcCNdpRtdLGqmov5Vngzew=="
         }
       },
       "is_incremental": false,
@@ -334,6 +322,18 @@
         ".html": {
           "relative_path": "api/MaybeSharp.Extensions.NullableExtensions.html",
           "hash": "dd3QiRrvv2vtsKUHos8jGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Extensions.NullableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Extensions.NullableExtensions.ToMaybe.html",
+          "hash": "LBX9F31GSFnNF0MESvwFsQ=="
         }
       },
       "is_incremental": false,
@@ -356,224 +356,8 @@
       "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.Cast.html",
-          "hash": "NragpkisGCZZraId30lJRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.As.html",
-          "hash": "9hAKUK4kvxsGW+qGKSPF1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.ToString.html",
-          "hash": "s05hFFA5pKmYpTCp3J38WQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.GetHashCode.html",
-          "hash": "EHqo4Su38x3UfLlrvRVw+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.Equals.html",
-          "hash": "KZLvZIeBwZoDX2ahg091mQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.CompareTo.html",
-          "hash": "scDcRyLRCgn0dfV5hETd0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.html",
-          "hash": "MZWCN2McY3tAJD0/USOa1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_Equality.html",
-          "hash": "aABZD+fh4zFYHocAFpMCBQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_Inequality.html",
-          "hash": "Tw+Abbq466VkpQPIHyKZcw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_GreaterThan.html",
-          "hash": "ZEJwft3SDii+/gFsVDPmoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_LessThan.html",
-          "hash": "kQj4gSSkRH7tjQUgQ4+YJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_GreaterThanOrEqual.html",
-          "hash": "EDEHtfhJhs+EXQWyiJ+Bgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_LessThanOrEqual.html",
-          "hash": "0L83qEifm35A2R9k2M5dHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.Nothing.html",
-          "hash": "ILwnhn+zJqV1g4rtTS3O7w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.-ctor.html",
-          "hash": "bAIO+tCQ9boMN80bZDEshQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.IsEmpty.html",
-          "hash": "obe2MS+P7YEz3VIfSoJGow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.HasValue.html",
-          "hash": "raGqMy+OwtOEOib2E4TIdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.Value.html",
-          "hash": "QCB0YgSlVa7uh4MMxEdDzQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.Bind.html",
-          "hash": "j5MoynuqRpZTI+aiFh45XQ=="
+          "relative_path": "api/MaybeSharp.Maybe-1.op_Explicit.html",
+          "hash": "qYpa7mPBO9GDPfAC7Trrtw=="
         }
       },
       "is_incremental": false,
@@ -596,8 +380,224 @@
       "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MaybeSharp.Maybe-1.op_Explicit.html",
-          "hash": "qYpa7mPBO9GDPfAC7Trrtw=="
+          "relative_path": "api/MaybeSharp.Maybe-1.Bind.html",
+          "hash": "j5MoynuqRpZTI+aiFh45XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.Value.html",
+          "hash": "QCB0YgSlVa7uh4MMxEdDzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.HasValue.html",
+          "hash": "raGqMy+OwtOEOib2E4TIdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.IsEmpty.html",
+          "hash": "obe2MS+P7YEz3VIfSoJGow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.-ctor.html",
+          "hash": "bAIO+tCQ9boMN80bZDEshQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.Nothing.html",
+          "hash": "ILwnhn+zJqV1g4rtTS3O7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_LessThanOrEqual.html",
+          "hash": "0L83qEifm35A2R9k2M5dHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_GreaterThanOrEqual.html",
+          "hash": "EDEHtfhJhs+EXQWyiJ+Bgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_LessThan.html",
+          "hash": "kQj4gSSkRH7tjQUgQ4+YJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_GreaterThan.html",
+          "hash": "ZEJwft3SDii+/gFsVDPmoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_Inequality.html",
+          "hash": "Tw+Abbq466VkpQPIHyKZcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.op_Equality.html",
+          "hash": "aABZD+fh4zFYHocAFpMCBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.html",
+          "hash": "MZWCN2McY3tAJD0/USOa1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.CompareTo.html",
+          "hash": "scDcRyLRCgn0dfV5hETd0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.Equals.html",
+          "hash": "KZLvZIeBwZoDX2ahg091mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.GetHashCode.html",
+          "hash": "EHqo4Su38x3UfLlrvRVw+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.ToString.html",
+          "hash": "s05hFFA5pKmYpTCp3J38WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.As.html",
+          "hash": "9hAKUK4kvxsGW+qGKSPF1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MaybeSharp.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MaybeSharp.Maybe-1.Cast.html",
+          "hash": "NragpkisGCZZraId30lJRQ=="
         }
       },
       "is_incremental": false,
@@ -649,12 +649,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "aEdKde//2wW9VLsF6BHZNA=="
+          "hash": "+vEPQ6NLq2DG9o993DSYlw=="
         }
       },
       "is_incremental": false,
@@ -668,14 +671,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "RestApiDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
